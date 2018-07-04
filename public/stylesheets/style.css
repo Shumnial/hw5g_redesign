@@ -9458,13 +9458,6 @@ header {
   -ms-flex-preferred-size: 45%;
       flex-basis: 45%;
 }
-.about-era__col:nth-child(1) {
-  margin-right: 30px;
-}
-.about-era__col:nth-child(2) {
-  -ms-flex-positive: 1;
-      flex-grow: 1;
-}
 @media (max-width: 768px) {
   .about-era {
     padding: 30px;
