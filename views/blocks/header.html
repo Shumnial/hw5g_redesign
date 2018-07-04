@@ -1,0 +1,857 @@
+<form method="post" action="/ru/sharehead" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTE0NDc5MzM2Ng8WAh4TVmFsaWRhdGVSZXF1ZXN0TW9kZQIBFgICAhBkZBYCAgEPZBYCZg9kFgJmD2QWEAIBDxYCHgtfIUl0ZW1Db3VudGZkAgIPFgIfAQIEFghmD2QWBGYPFQEAZAIBD2QWBAIBDw9kFgIeB29uY2xpY2tlZAIDDw9kFgIfAmVkAgEPZBYEZg8VAQ5pY29uZm9udC1mbGFzaGQCAQ9kFgQCAQ8PZBYCHwIFKmdhKCdzZW5kJywgJ2V2ZW50JywgJ2hlYWRlcicsICdjb25zdW1lcicpO2QCAw8PZBYCHwIFKmdhKCdzZW5kJywgJ2V2ZW50JywgJ2hlYWRlcicsICdjb25zdW1lcicpO2QCAg9kFgRmDxUBDmljb25mb250LWZsYXNoZAIBD2QWBAIBDw9kFgIfAgUsZ2EoJ3NlbmQnLCAnZXZlbnQnLCAnaGVhZGVyJywgJ2VudGVycHJpc2UnKTtkAgMPD2QWAh8CBSxnYSgnc2VuZCcsICdldmVudCcsICdoZWFkZXInLCAnZW50ZXJwcmlzZScpO2QCAw9kFgRmDxUBDmljb25mb250LWZsYXNoZAIBD2QWBAIBDw9kFgIfAgUqZ2EoJ3NlbmQnLCAnZXZlbnQnLCAnaGVhZGVyJywgJ2NhcnJpZXJzJyk7ZAIDDw9kFgIfAgUqZ2EoJ3NlbmQnLCAnZXZlbnQnLCAnaGVhZGVyJywgJ2NhcnJpZXJzJyk7ZAIDDxYCHgRUZXh0BZIxPGRpdiBjbGFzcz0id29ybGR3aWRlLWNvbnRhY3QiPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9Indvcmxkd2lkZS1sYW5ndWFnZSI+PHNwYW4gY2xhc3M9Imh3aWNfYnJvd3NlciI+PC9zcGFuPkh1YXdlaSBHbG9iYWwgLSA8YSBsaW5rPSIvZW4vIiBocmVmPSJqYXZhc2NyaXB0OnZvaWQoMCkiIHN0eWxlPSJ0ZXh0LWRlY29yYXRpb246dW5kZXJsaW5lOyI+RW5nbGlzaDwvYT48L2Rpdj4KICAgICAgICAgICAgICAgICAgICA8dWwgY2xhc3M9ImNsZWFyZml4Ij4KICAgICAgICAgICAgICAgICAgICAgICAgPGxpPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHVsPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGVtIGNsYXNzPSJpY29uLWljb24tYXVzdHJhbGlhIj48L2VtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3Bhbj5BdXN0cmFsaWE8L3NwYW4+LQogICAgICAgICAgICAgICAgICAgIDxhIGxpbms9Ii9hdS8iIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSI+RW5nbGlzaCA8L2E+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxlbSBjbGFzcz0iaWNvbi1pY29uLXJlcHVibGljIj48L2VtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3Bhbj5CZWxhcnVzPC9zcGFuPi0KICAgICAgICAgICAgICAgICAgICA8YSBsaW5rPSIvYnkvIiBocmVmPSJqYXZhc2NyaXB0OnZvaWQoMCkiPlDRg9GB0YHQutC40Lk8L2E+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxlbSBjbGFzcz0iaWNvbi1pY29uLWJyYXppbCI+PC9lbT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4+QnJhemlsPC9zcGFuPi0KICAgICAgICAgICAgICAgICAgICA8YSBsaW5rPSIvYnIvIiBocmVmPSJqYXZhc2NyaXB0OnZvaWQoMCkiPlBvcnR1Z3Vlc2U8L2E+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxlbSBjbGFzcz0iaWNvbi1pY29uLWNhbmFkYSI+PC9lbT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4+Q2FuYWRhPC9zcGFuPi0KICAgICAgICAgICAgICAgICAgICA8YSBsaW5rPSIvY2EvIiBocmVmPSJqYXZhc2NyaXB0OnZvaWQoMCkiPkVuZ2xpc2ggPC9hPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZW0gY2xhc3M9Imljb24taWNvbi1jaGluYSI+PC9lbT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4+Q2hpbmE8L3NwYW4+LQogICAgICAgICAgICAgICAgICAgIDxhIGxpbms9Ii9jbi8iIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSI+566A5L2T5Lit5paHPC9hPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3VsPgogICAgICAgICAgICAgICAgICAgICAgICA8L2xpPgogICAgICAgICAgICAgICAgICAgICAgICA8bGk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dWw+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZW0gY2xhc3M9Imljb24taWNvbi1kZXV0c2NobGFuZCI+PC9lbT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4+R2VybWFueTwvc3Bhbj4tCiAgICAgICAgICAgICAgICAgICAgPGEgbGluaz0iL2RlLyIgaHJlZj0iamF2YXNjcmlwdDp2b2lkKDApIj5EZXV0c2NoPC9hPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZW0gY2xhc3M9Imljb24taWNvbi1qYXBhbiI+PC9lbT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4+SmFwYW48L3NwYW4+LQogICAgICAgICAgICAgICAgICAgIDxhIGxpbms9Ii9qcC8iIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSI+5pel5pys6KqePC9hPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZW0gY2xhc3M9Imljb24taWNvbi1tYWxheXNpYSI+PC9lbT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4+TWFsYXlzaWEgPC9zcGFuPi0KICAgICAgICAgICAgICAgICAgICA8YSBsaW5rPSIvbXkvIiBocmVmPSJqYXZhc2NyaXB0OnZvaWQoMCkiPkVuZ2xpc2g8L2E+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxlbSBjbGFzcz0iaWNvbi1pY29uLW1leGljbyI+PC9lbT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4+TWV4aWNvPC9zcGFuPi0KICAgICAgICAgICAgICAgICAgICA8YSBsaW5rPSIvbXgvIiBocmVmPSJqYXZhc2NyaXB0OnZvaWQoMCkiPlNwYW5pc2g8L2E+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZW0gY2xhc3M9Imljb24taWNvbi1teWFubWFyIj48L2VtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3Bhbj5NeWFubWFyPC9zcGFuPi0KICAgICAgICAgICAgICAgICAgICA8YSBsaW5rPSIvbW0vIiBocmVmPSJqYXZhc2NyaXB0OnZvaWQoMCkiPuGAu+GAmeGAlOGAueGAmeGArDwvYT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2xpPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC91bD4KICAgICAgICAgICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgPGxpPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHVsPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGVtIGNsYXNzPSJpY29uLWljb24tcnVzc2lhIj48L2VtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3Bhbj5SdXNzaWE8L3NwYW4+LQogICAgICAgICAgICAgICAgICAgIDxhIGxpbms9Ii9ydS8iIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSI+0YDRg9GB0YHQutC40Lk8L2E+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxlbSBjbGFzcz0iaWNvbi1pY29uLXNvdXRoLWFmcmljYSI+PC9lbT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4+U291dGggQWZyaWNhPC9zcGFuPi0KICAgICAgICAgICAgICAgICAgICA8YSBsaW5rPSIvemEvIiBocmVmPSJqYXZhc2NyaXB0OnZvaWQoMCkiPkVuZ2xpc2ggPC9hPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZW0gY2xhc3M9Imljb24taWNvbi1zcGFpbiI+PC9lbT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4+U3BhaW48L3NwYW4+LQogICAgICAgICAgICAgICAgICAgIDxhIGxpbms9Ii9lcy8iIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSI+U3BhbmlzaDwvYT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2xpPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGVtIGNsYXNzPSJpY29uLWljb24tc3dpdHplcmxhbmQiPjwvZW0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuPlN3aXR6ZXJsYW5kPC9zcGFuPi0KICAgICAgICAgICAgICAgICAgICA8YSBsaW5rPSIvY2gtZW4vIiBocmVmPSJqYXZhc2NyaXB0OnZvaWQoMCkiPkVuZ2xpc2ggPC9hPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxlbSBjbGFzcz0iaWNvbi1pY29uLWtpbmdkb20iPjwvZW0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuPlRoYWlsYW5kPC9zcGFuPi0KICAgICAgICAgICAgICAgICAgICA8YSBsaW5rPSIvdGgvIiBocmVmPSJqYXZhc2NyaXB0OnZvaWQoMCkiPuC4oOC4suC4qeC4suC5hOC4l+C4ojwvYT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2xpPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC91bD4KICAgICAgICAgICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgPGxpPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHVsPiAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxlbSBjbGFzcz0iaWNvbi1pY29uLXR1cmtleSI+PC9lbT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4+VHVya2V5PC9zcGFuPi0KICAgICAgICAgICAgICAgICAgICA8YSBsaW5rPSIvdHIvIiBocmVmPSJqYXZhc2NyaXB0OnZvaWQoMCkiPlTDvHJraXllPC9hPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZW0gY2xhc3M9Imljb24taWNvbi11bml0ZWQta2luZ2RvbSI+PC9lbT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4+VW5pdGVkIEtpbmdkb208L3NwYW4+LQogICAgICAgICAgICAgICAgICAgIDxhIGxpbms9Ii91ay8iIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSI+RW5nbGlzaCA8L2E+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxlbSBjbGFzcz0iaWNvbi1pY29uLXVuaXRlZC1zdGF0ZXMiPjwvZW0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuPlVuaXRlZCBTdGF0ZXM8L3NwYW4+LQogICAgICAgICAgICAgICAgICAgIDxhIGxpbms9Ii91cy8iIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSI+RW5nbGlzaCA8L2E+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGk+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxlbSBjbGFzcz0iaWNvbi1pY29uLXZpZXRuYW0iPjwvZW0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuPlZpZXRuYW08L3NwYW4+LQogICAgICAgICAgICAgICAgICAgIDxhIGxpbms9Ii92bi8iIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSI+VGnhur9uZyBWaeG7h3Q8L2E+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9saT4KCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3VsPgogICAgICAgICAgICAgICAgICAgICAgICA8L2xpPgogICAgICAgICAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICAgICAgICA8L2Rpdj5kAgQPFgIfAQIEFghmD2QWBAIBD2QWBGYPFQUPaWNvbi1uYXYtaWNvbjAxDGphdmFzY3JpcHQ6OyVnYSgnc2VuZCcsICdldmVudCcsICduYXZiYXInLCAnYjJjJyk7AABkAgIPFQEJaHdpY19kb3duZAICDxUBAGQCAQ9kFgQCAQ9kFgRmDxUFD2ljb24tbmF2LWljb24wMgxqYXZhc2NyaXB0OjslZ2EoJ3NlbmQnLCAnZXZlbnQnLCAnbmF2YmFyJywgJ2IyYicpOwAAZAICDxUBCWh3aWNfZG93bmQCAg8VARo8L3VsPjx1bCBjbGFzcz0nY2xlYXJmaXgnPmQCAg9kFgQCAQ9kFgRmDxUFAAxqYXZhc2NyaXB0OjsyZ2EoJ3NlbmQnLCAnZXZlbnQnLCAnbmF2YmFyJywgJ2luZHVzdHJ5aW5zaWdodHMnKTsAAGQCAg8VAQlod2ljX2Rvd25kAgIPFQEAZAIDD2QWBAIBD2QWBGYPFQUADGphdmFzY3JpcHQ6Oy1nYSgnc2VuZCcsICdldmVudCcsICduYXZiYXInLCAnYWJvdXRodWF3ZWknKTsAAGQCAg8VAQlod2ljX2Rvd25kAgIPFQEAZAIGDxYCHgdkYXRhLWlkBQVmYWxzZWQCBw8WAh8EBQVmYWxzZWQCCA8WAh8BAgQWCGYPZBYCAgEPZBYCAgIPFQENZGlzcGxheTpub25lO2QCAQ9kFgICAQ9kFgICAg8VAQBkAgIPZBYCAgEPZBYCAgIPFQEAZAIDD2QWAgIBD2QWAgICDxUBAGQCCQ8WAh8DBZsYPHVsPgogICAgPGxpPjxhIGxpbms9Ii9lbi8iIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSI+PHNwYW4gY2xhc3M9Imh3aWNfYnJvd3NlciI+PC9zcGFuPkdsb2JhbCAtIEVuZ2xpc2g8L2E+PC9saT4KICAgIDxsaT4KICAgIDxlbSBjbGFzcz0iaWNvbi1pY29uLWF1c3RyYWxpYSI+PC9lbT4KICAgIDxzcGFuPkF1c3RyYWxpYTwvc3Bhbj4tCiAgICA8YSBsaW5rPSIvYXUvIiBocmVmPSJqYXZhc2NyaXB0OnZvaWQoMCkiPkVuZ2xpc2ggPC9hPgogICAgPC9saT4KICAgIDxsaT4KICAgIDxlbSBjbGFzcz0iaWNvbi1pY29uLXJlcHVibGljIj48L2VtPgogICAgPHNwYW4+QmVsYXJ1czwvc3Bhbj4tCiAgICA8YSBsaW5rPSIvYnkvIiBocmVmPSJqYXZhc2NyaXB0OnZvaWQoMCkiPlDRg9GB0YHQutC40Lk8L2E+CiAgICA8L2xpPgogICAgPGxpPgogICAgPGVtIGNsYXNzPSJpY29uLWljb24tYnJhemlsIj48L2VtPgogICAgPHNwYW4+QnJhemlsPC9zcGFuPi0KICAgIDxhIGxpbms9Ii9ici8iIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSI+UG9ydHVndWVzZTwvYT4KICAgIDwvbGk+CiAgICA8bGk+CiAgICA8ZW0gY2xhc3M9Imljb24taWNvbi1jYW5hZGEiPjwvZW0+CiAgICA8c3Bhbj5DYW5hZGE8L3NwYW4+LQogICAgPGEgbGluaz0iL2NhLyIgaHJlZj0iamF2YXNjcmlwdDp2b2lkKDApIj5FbmdsaXNoIDwvYT4KICAgIDwvbGk+CiAgICA8bGk+CiAgICA8ZW0gY2xhc3M9Imljb24taWNvbi1jaGluYSI+PC9lbT4KICAgIDxzcGFuPkNoaW5hPC9zcGFuPi0KICAgIDxhIGxpbms9Ii9jbi8iIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSI+566A5L2T5Lit5paHPC9hPgogICAgPC9saT4KICAgIDxsaT4KICAgIDwvbGk+CiAgICA8bGk+CiAgICA8ZW0gY2xhc3M9Imljb24taWNvbi1kZXV0c2NobGFuZCI+PC9lbT4KICAgIDxzcGFuPkNoaW5hPC9zcGFuPi0KICAgIDxhIGxpbms9Ii9kZS8iIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSI+R2VybWFueTwvYT4KICAgIDwvbGk+CiAgICA8bGk+CiAgICA8ZW0gY2xhc3M9Imljb24taWNvbi1qYXBhbiI+PC9lbT4KICAgIDxzcGFuPkphcGFuPC9zcGFuPi0KICAgIDxhIGxpbms9Ii9qcC8iIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSI+5pel5pys6KqePC9hPgogICAgPC9saT4KICAgIDxsaT4KICAgIDxlbSBjbGFzcz0iaWNvbi1pY29uLW1hbGF5c2lhIj48L2VtPgogICAgPHNwYW4+TWFsYXlzaWEgPC9zcGFuPi0KICAgIDxhIGxpbms9Ii9teS8iIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSI+RW5nbGlzaDwvYT4KICAgIDwvbGk+CiAgICA8bGk+CiAgICA8ZW0gY2xhc3M9Imljb24taWNvbi1tZXhpY28iPjwvZW0+CiAgICA8c3Bhbj5NZXhpY288L3NwYW4+LQogICAgPGEgbGluaz0iL214LyIgaHJlZj0iamF2YXNjcmlwdDp2b2lkKDApIj5TcGFuaXNoPC9hPgogICAgPC9saT4KICAgIDxsaT4KICAgIDwvbGk+CiAgICA8bGk+CiAgICA8ZW0gY2xhc3M9Imljb24taWNvbi1teWFubWFyIj48L2VtPgogICAgPHNwYW4+TXlhbm1hcjwvc3Bhbj4tCiAgICA8YSBsaW5rPSIvbW0vIiBocmVmPSJqYXZhc2NyaXB0OnZvaWQoMCkiPuGAu+GAmeGAlOGAueGAmeGArDwvYT4KICAgIDwvbGk+CiAgICA8bGk+CiAgICA8ZW0gY2xhc3M9Imljb24taWNvbi1ydXNzaWEiPjwvZW0+CiAgICA8c3Bhbj5SdXNzaWE8L3NwYW4+LQogICAgPGEgbGluaz0iL3J1LyIgaHJlZj0iamF2YXNjcmlwdDp2b2lkKDApIj7RgNGD0YHRgdC60LjQuTwvYT4KICAgIDwvbGk+CiAgICA8bGk+CiAgICA8ZW0gY2xhc3M9Imljb24taWNvbi1zb3V0aC1hZnJpY2EiPjwvZW0+CiAgICA8c3Bhbj5Tb3V0aCBBZnJpY2E8L3NwYW4+LQogICAgPGEgbGluaz0iL3phLyIgaHJlZj0iamF2YXNjcmlwdDp2b2lkKDApIj5FbmdsaXNoIDwvYT4KICAgIDwvbGk+CiAgICA8bGk+CiAgICA8ZW0gY2xhc3M9Imljb24taWNvbi1zcGFpbiI+PC9lbT4KICAgIDxzcGFuPlNwYWluPC9zcGFuPi0KICAgIDxhIGxpbms9Ii9lcy8iIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSI+U3BhbmlzaDwvYT4KICAgIDwvbGk+CiAgICA8bGk+CiAgICA8ZW0gY2xhc3M9Imljb24taWNvbi1zd2l0emVybGFuZCI+PC9lbT4KICAgIDxzcGFuPlN3aXR6ZXJsYW5kPC9zcGFuPi0KICAgIDxhIGxpbms9Ii9jaC1lbi8iIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSI+RW5nbGlzaCA8L2E+CiAgICA8L2xpPgogICAgPGxpPgogICAgPGVtIGNsYXNzPSJpY29uLWljb24ta2luZ2RvbSI+PC9lbT4KICAgIDxzcGFuPlRoYWlsYW5kPC9zcGFuPi0KICAgIDxhIGxpbms9Ii90aC8iIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSI+4Lig4Liy4Lip4Liy4LmE4LiX4LiiPC9hPgogICAgPC9saT4KICAgIDxsaT4KICAgIDwvbGk+CiAgICA8bGk+CiAgICA8ZW0gY2xhc3M9Imljb24taWNvbi10dXJrZXkiPjwvZW0+CiAgICA8c3Bhbj5UdXJrZXk8L3NwYW4+LQogICAgPGEgbGluaz0iL3RyLyIgaHJlZj0iamF2YXNjcmlwdDp2b2lkKDApIj5UJnV1bWw7cmtpeWU8L2E+CiAgICA8L2xpPgogICAgPGxpPgogICAgPGVtIGNsYXNzPSJpY29uLWljb24tdW5pdGVkLWtpbmdkb20iPjwvZW0+CiAgICA8c3Bhbj5Vbml0ZWQgS2luZ2RvbTwvc3Bhbj4tCiAgICA8YSBsaW5rPSIvdWsvIiBocmVmPSJqYXZhc2NyaXB0OnZvaWQoMCkiPkVuZ2xpc2ggPC9hPgogICAgPC9saT4KICAgIDxsaT4KICAgIDxlbSBjbGFzcz0iaWNvbi1pY29uLXVuaXRlZC1zdGF0ZXMiPjwvZW0+CiAgICA8c3Bhbj5Vbml0ZWQgU3RhdGVzPC9zcGFuPi0KICAgIDxhIGxpbms9Ii91cy8iIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSI+RW5nbGlzaCA8L2E+CiAgICA8L2xpPgogICAgPGxpPgogICAgPGVtIGNsYXNzPSJpY29uLWljb24tdmlldG5hbSI+PC9lbT4KICAgIDxzcGFuPlZpZXRuYW08L3NwYW4+LQogICAgPGEgbGluaz0iL3ZuLyIgaHJlZj0iamF2YXNjcmlwdDp2b2lkKDApIj5UaeG6v25nIFZp4buHdDwvYT4KICAgIDwvbGk+CiAgICA8bGk+CiAgICA8ZW0+PC9lbT4KICAgIDxzcGFuPkh1YXdlaSBHbG9iYWw8L3NwYW4+LQogICAgPGEgbGluaz0iL2VuLyIgaHJlZj0iamF2YXNjcmlwdDp2b2lkKDApIj5FbmdsaXNoIDwvYT4KICAgIDwvbGk+CjwvdWw+ZGR4LYfy+zglUUwDt3LkC/uRxOTafA==">
+</div>
+
+    
+
+<input type="hidden" id="hidLanguage" value="ru-ru">
+<input type="hidden" id="SearchUrl" value="/ru/searchresult">
+<input type="hidden" id="hisSearch" value="История запросов">
+<input type="hidden" id="rememberChoice" value="Remember my choice">
+<input type="hidden" id="yes" value="yes">
+<input type="hidden" id="no" value="no">
+
+<div class="nav-gblnav hidden-xs  hidden-sm" style="">
+    <input type="hidden" id="hidUserStatusUrl" value="/ru/user">
+    <div class="nav-height">
+        <div class="container">
+            <span><a href="javascript:;" class="navbar-toggle corporate-link" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" onclick="">
+                 Huawei Россия
+                <em class="hwic_down"></em></a>
+            </span>
+        </div>
+    </div>
+    <div class="container">
+        <div class="corporate">
+            <div class="corporate-dropdown navbar-collapse collapse" id="navbar" aria-expanded="true">
+                <ul class="clearfix">
+                    
+                            <li class="">
+                                
+                                    <h3>
+                                        <a>
+                                            Корпоративный сайт
+                                            <em class="hwic_right"></em>
+                                        </a>
+                                    </h3>
+                                    <a>
+                                        <p>О компании Huawei, пресса, события и многое другое</p>
+                                    </a>
+                                    
+                                
+                            </li>
+                        
+                            <li class="iconfont-flash">
+                                
+                                    <h3>
+                                        <a href="https://consumer.huawei.com/ru" onclick="ga('send', 'event', 'header', 'consumer');" target="_blank">
+                                            Для потребителей
+                                            <em class="hwic_right"></em>
+                                        </a>
+                                    </h3>
+                                    <a href="https://consumer.huawei.com/ru" onclick="ga('send', 'event', 'header', 'consumer');" target="_blank">
+                                        <p>Смартфоны, планшеты, носимые устройства и многое другое</p>
+                                    </a>
+                                    
+                                
+                            </li>
+                        
+                            <li class="iconfont-flash">
+                                
+                                    <h3>
+                                        <a href="http://e.huawei.com/ru" onclick="ga('send', 'event', 'header', 'enterprise');">
+                                            Для предприятий
+                                            <em class="hwic_right"></em>
+                                        </a>
+                                    </h3>
+                                    <a href="http://e.huawei.com/ru" onclick="ga('send', 'event', 'header', 'enterprise');">
+                                        <p>Продукты, решения и услуги для предприятий</p>
+                                    </a>
+                                    
+                                
+                            </li>
+                        
+                            <li class="iconfont-flash">
+                                
+                                    <h3>
+                                        <a href="http://carrier.huawei.com/en/" onclick="ga('send', 'event', 'header', 'carriers');" target="_blank">
+                                            Для операторов 
+                                            <em class="hwic_right"></em>
+                                        </a>
+                                    </h3>
+                                    <a href="http://carrier.huawei.com/en/" onclick="ga('send', 'event', 'header', 'carriers');" target="_blank">
+                                        <p>Продукты, решения и услуги для операторов</p>
+                                    </a>
+                                    
+                                
+                            </li>
+                        
+                </ul>
+            </div>
+            <div class="worldwide-dropdown navbar-collapse collapse" id="worldwide" aria-expanded="true">
+                
+                <div class="worldwide-contact">
+                    <div class="worldwide-language"><span class="hwic_browser"></span>Huawei Global - <a link="/en/" href="javascript:void(0)" style="text-decoration:underline;">English</a></div>
+                    <ul class="clearfix">
+                        <li>
+                            <ul>
+                                <li>
+                                    <em class="icon-icon-australia"></em>
+                                    <span>Australia</span>-
+                    <a link="/au/" href="javascript:void(0)">English </a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-republic"></em>
+                                    <span>Belarus</span>-
+                    <a link="/by/" href="javascript:void(0)">Pусский</a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-brazil"></em>
+                                    <span>Brazil</span>-
+                    <a link="/br/" href="javascript:void(0)">Portuguese</a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-canada"></em>
+                                    <span>Canada</span>-
+                    <a link="/ca/" href="javascript:void(0)">English </a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-china"></em>
+                                    <span>China</span>-
+                    <a link="/cn/" href="javascript:void(0)">简体中文</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>
+                                    <em class="icon-icon-deutschland"></em>
+                                    <span>Germany</span>-
+                    <a link="/de/" href="javascript:void(0)">Deutsch</a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-japan"></em>
+                                    <span>Japan</span>-
+                    <a link="/jp/" href="javascript:void(0)">日本語</a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-malaysia"></em>
+                                    <span>Malaysia </span>-
+                    <a link="/my/" href="javascript:void(0)">English</a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-mexico"></em>
+                                    <span>Mexico</span>-
+                    <a link="/mx/" href="javascript:void(0)">Spanish</a>
+                                </li>
+                                 <li>
+                                    <em class="icon-icon-myanmar"></em>
+                                    <span>Myanmar</span>-
+                    <a link="/mm/" href="javascript:void(0)">ျမန္မာ</a>
+                                </li>
+                               
+
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>
+                                    <em class="icon-icon-russia"></em>
+                                    <span>Russia</span>-
+                    <a link="/ru/" href="javascript:void(0)">русский</a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-south-africa"></em>
+                                    <span>South Africa</span>-
+                    <a link="/za/" href="javascript:void(0)">English </a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-spain"></em>
+                                    <span>Spain</span>-
+                    <a link="/es/" href="javascript:void(0)">Spanish</a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-switzerland"></em>
+                                    <span>Switzerland</span>-
+                    <a link="/ch-en/" href="javascript:void(0)">English </a>
+                                </li>
+                               <li>
+                                    <em class="icon-icon-kingdom"></em>
+                                    <span>Thailand</span>-
+                    <a link="/th/" href="javascript:void(0)">ภาษาไทย</a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>                   
+                                <li>
+                                    <em class="icon-icon-turkey"></em>
+                                    <span>Turkey</span>-
+                    <a link="/tr/" href="javascript:void(0)">Türkiye</a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-united-kingdom"></em>
+                                    <span>United Kingdom</span>-
+                    <a link="/uk/" href="javascript:void(0)">English </a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-united-states"></em>
+                                    <span>United States</span>-
+                    <a link="/us/" href="javascript:void(0)">English </a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-vietnam"></em>
+                                    <span>Vietnam</span>-
+                    <a link="/vn/" href="javascript:void(0)">Tiếng Việt</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<header class="affix-top">
+    <div id="hw1_global_nav">
+        <nav>
+            <div class="container">
+                <div id="hw1_logo">
+                    <a href="/">
+                        <img src="https://www.huawei.com/Assets/corp/v2/img/huawei_logo.png" alt="Huawei"></a>
+                </div>
+                <div class="nav-contact  hidden-xs  hidden-sm">
+                    <ul class="clearfix">
+                        
+                                <li>
+                                    
+                                        <span class="icon-nav-icon01"></span>
+                                        <a href="javascript:;" onclick="ga('send', 'event', 'navbar', 'b2c');" class="navbar-toggle ">
+                                            Для потребителя
+                                            <em class="hwic_down"></em></a>
+                                        <div class="primary-nav-consumer-open  navbar-collapse">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm-3">
+                        <span class="lazy-placeholder " style="padding-top: 115.385%;"><img class="lazy img-radius" data-original="https://www.huawei.com/mediafiles/MediaFiles/2/6/D/{26DFB14F-D319-4FBB-A141-173583111F2F}p20-hero-small.png" alt="Huawei" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="></span>
+                        <div class="see-more">
+                          <a href="https://shop.huawei.ru/huawei-p20" onclick="ga('send', 'event', 'navbar', 'b2c', 'p10');" target="_blank">Узнать больше <em class="hwic_right"></em></a>
+                        </div>
+                      </div>
+                      <div class="col-sm-7">
+                        <div class="list-icon">
+                          <div class="row">
+                            <div class="col-sm-4 external-link">
+                              <a href="https://consumer.huawei.com/ru/?type=phones" onclick="ga('send', 'event', 'navbar', 'b2c', 'phones');" target="_blank">
+                        <em class="icon-nav-icon03"></em>
+                        <p>Смартфоны<em class="hwic_open-in-new3"></em></p>
+                          
+                      </a>
+                            </div>
+                            <div class="col-sm-4 external-link">
+                              <a href="https://consumer.huawei.com/ru/?type=tablets" onclick="ga('send', 'event', 'navbar', 'b2c', 'PCandTablet');" target="_blank">
+                        <img src="//www-file.huawei.com/-/media/CORPORATE/Local-site/ru/CBG/tablets.png?la=ru-RU">
+                      <p>Планшеты<em class="hwic_open-in-new3"></em></p>
+                        </a>
+                            </div>
+                            <div class="col-sm-4 external-link">
+                              <a href="https://consumer.huawei.com/ru/?type=wearables" onclick="ga('send', 'event', 'navbar', 'b2c', 'Wearables');" target="_blank">
+                        <em class="icon-nav-icon05"></em>
+                      <p>Носимые устройства <em class="hwic_open-in-new3"></em></p>
+                      </a>
+                            </div>
+                            
+              <div class="col-sm-4 external-link">
+                              <a href="https://smarthome.huawei.ru/b2c/" onclick="ga('send', 'event', 'navbar', 'b2c', 'smarthome');" target="_blank">
+                        <em class="icon-nav-icon06"></em>
+                      <p>Интернет<em class="hwic_open-in-new3"></em></p>
+                        </a>
+                            </div>
+                            
+                          </div>
+                          <span class="external-link"><a href="https://consumer.huawei.com/ru/" onclick="ga('send', 'event', 'navbar', 'b2c', 'consumerhome');" target="_blank">Посмотреть&nbsp;<span class="link-red">все товары</span></a><em class="hwic_open-in-new3"></em></span>
+                        </div>
+                      </div>
+                      <div class="col-sm-2">
+                        <div class="card-cl2">
+                          <h3>Поддержка</h3>
+                          <ul class="clearfix">
+                            <li class="external-link"><a href="https://consumer.huawei.com/ru/support/phones/" onclick="ga('send', 'event', 'navbar', 'b2c', 'productsupport');" target="_blank">Служба поддержки<em class="hwic_open-in-new3"></em></a></li>
+                            <li class="external-link"><a href="https://consumer.huawei.com/ru/support/service-center/" onclick="ga('send', 'event', 'navbar', 'b2c', 'servicecenters');" target="_blank">Сервис-центры<em class="hwic_open-in-new3"></em></a></li>
+                            <li class="external-link"><a href="https://shop.huawei.ru/about-contact-us-ru/" onclick="ga('send', 'event', 'navbar', 'b2c', 'callus');" target="_blank">Контакты<em class="hwic_open-in-new3"></em></a></li>
+                          </ul>
+              <span class="external-link"><a href="https://consumer.huawei.com/ru/support/" nclick="ga('send', 'event', 'navbar', 'b2c', 'supportcenter');" target="_blank"><span class="link-red">Узнать больше </span></a><em class="hwic_open-in-new3"></em></span>
+                          <div class="bg-support container-fluid">
+                            <div class="row">
+                              <div class=""></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                                    
+                                </li>
+                                
+                            
+                                <li>
+                                    
+                                        <span class="icon-nav-icon02"></span>
+                                        <a href="javascript:;" onclick="ga('send', 'event', 'navbar', 'b2b');" class="navbar-toggle ">
+                                            Для бизнеса
+                                            <em class="hwic_down"></em></a>
+                                        <div class="primary-nav-enterprise-open  navbar-collapse collapse">
+                  <div class="nav-for-tab">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-sm-6 center-block">
+                          <ul class="" role="tablist" style="margin: 0 auto;  text-align: center;">
+                            <li role="presentation" class="active">
+                              <a href="#FOR-ENTERPRISE" aria-controls="FOR-ENTERPRISE" role="tab" data-toggle="tab" onclick="ga('send', 'event', 'navbar', 'b2b', 'enterprisetab');">Для предприятий</a>
+                            </li>
+                            <li role="presentation">
+                              <a href="#FOR-CARRIERS" aria-controls="FOR-CARRIERS" role="tab" data-toggle="tab" onclick="ga('send', 'event', 'navbar', 'b2b', 'carriertab');">Для партнеров</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                      <div role="tabpanel" class="for-tab-one tab-pane fade in active" id="FOR-ENTERPRISE">
+                        <div class="container">
+                          <div class="row">
+               <div class="col-sm-9">
+                 <div class="row">
+                  <div class="col-sm-4">
+                                  <h3>Продукты</h3>
+                                  <ul>
+                                    <li class="external-link"><a href="http://e.huawei.com/ru/products/enterprise-networking/switches" onclick="ga('send', 'event', 'navbar', 'b2b', 'ent-switches');" target="_blank">Коммутаторы<em class="hwic_open-in-new3"></em></a></li>
+                                    <li class="external-link"><a href="http://e.huawei.com/ru/products/enterprise-networking/routers" onclick="ga('send', 'event', 'navbar', 'b2b', 'ent-routers');" target="_blank">Маршрутизаторы<em class="hwic_open-in-new3"></em></a></li>
+                                    <li class="external-link"><a href="http://e.huawei.com/ru/products/enterprise-networking/wlan" onclick="ga('send', 'event', 'navbar', 'b2b', 'ent-wlan');" target="_blank">WLAN<em class="hwic_open-in-new3"></em></a></li>
+                                    <li class="external-link"><a href="http://e.huawei.com/ru/products/cloud-computing-dc/servers" onclick="ga('send', 'event', 'navbar', 'b2b', 'ent-servers');" target="_blank">Серверы<em class="hwic_open-in-new3"></em></a></li>
+                                    <li class="external-link"><a href="http://e.huawei.com/ru/" class="see-all" onclick="ga('send', 'event', 'navbar', 'b2b', 'ent-seeallproduct');" target="_blank">Узнать больше<em class="hwic_open-in-new3"></em></a></li>
+                                  </ul>
+                                </div>
+                  <div class="col-sm-4">
+                      <h3>Решения</h3>
+                      <ul>
+<li class="external-link"><a href="http://huaweicloud.ru/ru-ru/" onclick="ga('send', 'event', 'navbar', 'b2b', 'ent-datacenter');" target="_blank">Публичное облако Huawei 3data Cloud<em class="hwic_open-in-new3"></em></a></li>
+                      <li class="external-link"><a href="http://e.huawei.com/ru/solutions/business-needs/data-center" onclick="ga('send', 'event', 'navbar', 'b2b', 'ent-datacenter');" target="_blank">Облачный центр хранения данных<em class="hwic_open-in-new3"></em></a></li>
+                      <li class="external-link"><a href="http://e.huawei.com/ru/solutions/business-needs/enterprise-network" onclick="ga('send', 'event', 'navbar', 'b2b', 'ent-enterprisenetwork');" target="_blank">Корпоративные сети<em class="hwic_open-in-new3"></em></a></li>
+                      <li class="external-link"><a href="http://e.huawei.com/ru/solutions/business-needs/wireless-private-network" onclick="ga('send', 'event', 'navbar', 'b2b', 'ent-wirelessprivate');" target="_blank">Беспроводные частные сети<em class="hwic_open-in-new3"></em></a></li>
+                      <li class="external-link"><a href="http://e.huawei.com/ru/solutions/industries" onclick="ga('send', 'event', 'navbar', 'b2b', 'ent-industries');" target="_blank">Решения по отраслям<em class="hwic_open-in-new3"></em></a></li>
+                      <li class="external-link"><a href="http://e.huawei.com/ru/solutions" class="see-all" onclick="ga('send', 'event', 'navbar', 'b2b', 'ent-seeallsolutions');" target="_blank">Узнать больше<em class="hwic_open-in-new3"></em></a></li>
+                      </ul>
+                    </div>
+                  <div class="col-sm-4">
+                      <h3>Сервисы</h3>
+                      <ul>
+                      <li class="external-link"><a href="http://e.huawei.com/ru/services/digital-transformation-journey/advisory-implementation" onclick="ga('send', 'event', 'navbar', 'b2b', 'ent-advioryimplementservice');" target="_blank">Службы жизненного цикла ИКТ<em class="hwic_open-in-new3"></em></a></li>
+                      <li class="external-link"><a href="http://e.huawei.com/ru/services/technology-surpport/network" onclick="ga('send', 'event', 'navbar', 'b2b', 'ent-supportservice');" target="_blank">Воспользуйтесь технологическими решениями Huawei<em class="hwic_open-in-new3"></em></a></li>
+                      <li class="external-link"><a href="http://e.huawei.com/ru/services/industries-solutions" onclick="ga('send', 'event', 'navbar', 'b2b', 'ent-industryservices');" target="_blank">Услуги в отраслевых решениях<em class="hwic_open-in-new3"></em></a></li>
+                      <li class="external-link"><a href="http://e.huawei.com/ru/services" class="see-all" onclick="ga('send', 'event', 'navbar', 'b2b', 'ent-seeallservices');" target="_blank">Узнать больше <em class="hwic_open-in-new3"></em></a></li>
+                      </ul>
+                    </div>
+                 </div>
+                 
+              <span class="external-link"><a href="http://e.huawei.com/ru/" onclick="ga('send', 'event', 'navbar', 'b2b', 'ent-home');" target="_blank">Перейти на сайт <span class="link-red">Enterprise</span></a><em class="hwic_open-in-new3"></em></span>
+               </div>
+                             <div class="col-sm-3">
+                              <div class="card-cl2">
+                                <h3>Поддержка</h3>
+                                <ul class="clearfix">
+                                  <li class="external-link"><a href="http://support.huawei.com/enterprise/ru/index.html" onclick="ga('send', 'event', 'navbar', 'b2b', 'ent-productsupport');" target="_blank">Поддержка продукта<em class="hwic_open-in-new3"></em></a></li>
+                                  <li class="external-link"><a href="http://support.huawei.com/enterprise/ru/software/index.html" onclick="ga('send', 'event', 'navbar', 'b2b', 'ent-softwaredownload');" target="_blank">Загрузки<em class="hwic_open-in-new3"></em></a></li>
+                                  <li class="external-link"><a href="http://forum.huawei.com/enterprise/ru/forum-100101.html" onclick="ga('send', 'event', 'navbar', 'b2b', 'ent-techinicalforum');" target="_blank">ИКТ Клуб <em class="hwic_open-in-new3"></em></a></li>
+                                  <li class="external-link"><a href="http://support.huawei.com/enterprise/ru/tool/" onclick="ga('send', 'event', 'navbar', 'b2b', 'ent-tools');" target="_blank">Инструменты<em class="hwic_open-in-new3"></em></a></li>
+                                </ul>
+                                <span class="external-link"><a href="http://support.huawei.com/enterprise/ru/index.html" onclick="ga('send', 'event', 'navbar', 'b2b', 'ent-supprotcenter');" target="_blank"> <span class="link-red">Узнать больше </span></a><em class="hwic_open-in-new3"></em></span>
+                                <div class="bg-support container-fluid">
+                                  <div class="row">
+                                    <div></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+              
+                          </div>
+                        </div>
+
+                      </div>
+                      <div role="tabpanel" class="for-tab-one tab-pane fade" id="FOR-CARRIERS">
+                        <div class="container">
+                          <div class="row">
+              
+                  <div class="col-sm-4">
+                    <h3>Поиск партнера</h3>
+                      <ul>
+                      <li class="external-link"><a href="http://e.huawei.com/ru/partner/find-a-partner" target="_blank">Поиск всех партнеров <em class="hwic_open-in-new3"></em></a></li>
+                      <li class="external-link"><a href="http://e.huawei.com/ru/partner/partner-profiles" target="_blank">Профили партнеров <em class="hwic_open-in-new3"></em></a></li>
+                      
+                      </ul>
+                  </div>
+                   <div class="col-sm-4">
+                    <h3>Стать партнером Huawei</h3>
+                    <ul>
+                    <li class="external-link"><a href="http://e.huawei.com/ru/partner/partner-program" target="_blank">Стать партнером Huawei<em class="hwic_open-in-new3"></em></a></li>
+                    <li class="external-link"><a href="http://e.huawei.com/ru/partner/partner-program/policy" target="_blank">Структура партнерского канала <em class="hwic_open-in-new3"></em></a></li>
+                    <li class="external-link"><a href="http://e.huawei.com/ru/partner/become-a-partner" target="_blank">Регистрация в системе Huawei <em class="hwic_open-in-new3"></em></a></li>
+                  
+                    </ul>
+                  </div>
+                   <div class="col-sm-4">
+                    <h3>Партнерский портал</h3>
+                    <ul>
+                    <li class="external-link"><a href="http://e.huawei.com/ru/partner/partner-zone" target="_blank">Инструменты для партнеров<em class="hwic_open-in-new3"></em></a></li>
+                    <li class="external-link"><a href="http://support.huawei.com/learning/queryByVistorRole!toTrainingVistorPage?roleType=CPartner" target="_blank">Обучение партнера <em class="hwic_open-in-new3"></em></a></li>
+                    <li class="external-link"><a href="http://e.huawei.com/ru/marketing-material" target="_blank">Маркетинговые материалы <em class="hwic_open-in-new3"></em></a></li>
+                    
+                    </ul>
+                  </div>
+                </div>
+              </div>
+                            
+
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                                    
+                                </li>
+                                </ul><ul class="clearfix">
+                            
+                                <li>
+                                    
+                                        <span class=""></span>
+                                        <a href="javascript:;" onclick="ga('send', 'event', 'navbar', 'industryinsights');" class="navbar-toggle ">
+                                            Поддержка
+                                            <em class="hwic_down"></em></a>
+                                        
+<div class="primary-nav-insights-open  navbar-collapse collapse">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <h3>Для пользователя</h3>
+<ul>
+    <li class="external-link"><a href="http://consumer.huawei.com/ru/support/index.htm">Служба поддержки<em class="hwic_open-in-new3"></em></a></li>
+    <li class="external-link"><a href="http://consumer.huawei.com/ru/support/service-center/index.htm">Сервисные центры<em class="hwic_open-in-new3"></em></a></li>
+    <li class="external-link"><a href="https://shop.huawei.ru/about-contact-us-ru/">Контакты<em class="hwic_open-in-new3"></em></a></li>
+    <li class="external-link"><a href="http://consumer.huawei.com/ru/support/index.htm" class="see-all">Узнать больше<em class="hwic_open-in-new3"></em></a></li>
+</ul>
+                
+            </div>
+            <div class="col-sm-3">
+                <h3>Для предприятий</h3>
+<ul>
+    <li class="external-link"><a href="http://support.huawei.com/enterprise/?lang=ru">Служба поддержки<em class="hwic_open-in-new3"></em></a></li>
+    <li class="external-link"><a href="http://support.huawei.com/enterprise/NewSoftwareApplication.action?version=new">Скачать ПО<em class="hwic_open-in-new3"></em></a></li>
+    <li class="external-link"><a href="http://support.huawei.com/enterprise/ru/tool/">Инструменты<em class="hwic_open-in-new3"></em></a></li>
+    <li class="external-link"><a href="http://support.huawei.com/enterprise/DocIndexAction!toNewDocIndex">Документация<em class="hwic_open-in-new3"></em></a></li>
+    <li class="external-link"><a href="http://support.huawei.com/enterprise/newKnowlegdeAction">База знаний<em class="hwic_open-in-new3"></em></a></li>
+    <li class="external-link"><a href="http://support.huawei.com/learning/en/newindex.html">Сертификация<em class="hwic_open-in-new3"></em></a></li>
+    <li class="external-link"><a href="http://support.huawei.com/enterprise/lang.jsp?lang=ru&amp;forward=http%3A%2F%2Fsupport.huawei.com%2Fenterprise%2F" class="see-all">Узнать больше <em class="hwic_open-in-new3"></em></a></li>
+</ul>
+            </div>
+            <div class="col-sm-3">
+                <h3>Для операторов</h3>
+<ul>
+    <li class="external-link"><a href="http://support.huawei.com/carrier/?lang=en#click=main1">Служба поддержки<em class="hwic_open-in-new3"></em></a></li>
+    <li class="external-link"><a href="http://support.huawei.com/carrier/?lang=en#click=main3">Скачать ПО<em class="hwic_open-in-new3"></em></a></li>
+    <li class="external-link"><a href="http://support.huawei.com/carrier/navi?lang=en#col=tool">Инструменты<em class="hwic_open-in-new3"></em></a></li>
+    <li class="external-link"><a href="http://support.huawei.com/carrier/?lang=en#click=main2">База знаний<em class="hwic_open-in-new3"></em></a></li>
+    <li class="external-link"><a href="http://support.huawei.com/carrier/" class="see-all">Узнать больше <em class="hwic_open-in-new3"></em></a></li>
+</ul>
+            </div>
+<div class="col-sm-3 hw1_box_wrap">
+<a href="http://e.huawei.com/ru/get-price-info"><span class="lazy-placeholder " style="padding-top: 115.385%;"><img src="" class="img-responsive center-block lazy" alt="" data-original="http://www.huawei.com/Assets/CBG/img/group_nav_support.jpg"></span></a>
+<a href="http://e.huawei.com/ru/get-price-info" class="hw1_btn">Запросить стоимость</a>
+</div>
+        </div>
+    </div>
+</div>
+
+                                    
+                                </li>
+                                
+                            
+                                <li>
+                                    
+                                        <span class=""></span>
+                                        <a href="javascript:;" onclick="ga('send', 'event', 'navbar', 'abouthuawei');" class="navbar-toggle ">
+                                            О компании
+                                            <em class="hwic_down"></em></a>
+                                        <div class="about-huawei-open navbar-collapse collapse">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm-6">
+              <h3>О компании</h3>
+             <div class="row">
+              <div class="col-sm-6">
+                <ul>
+                  <li class="external-link"><a href="https://www.huawei.com/ru/about-huawei/corporate-information" onclick="ga('send', 'event', 'mobilenav', 'abouthuawei', 'corporateinfo');">Корпоративная информация </a></li>
+                        <li class="external-link"><a href="https://www.huawei.com/ru/about-huawei/corporate-governance/corporate-governance" onclick="ga('send', 'event', 'mobilenav', 'abouthuawei', 'governance');">Руководство компании</a></li>
+                        <li class="external-link"><a href="https://www.huawei.com/ru/about-huawei/cyber-security" onclick="ga('send', 'event', 'mobilenav', 'abouthuawei', 'cybersecurity');">Информационная безопасность</a></li>
+            <li class="external-link"><a href="https://www.huawei.com/minisite/russia/gci2018rus/huaweiGCI.html" onclick="ga('send', 'event', 'mobilenav', 'abouthuawei', 'rugci');">Глобальный индекс сетевого взаимодействия<em class="hwic_open-in-new3"></em></a></li>
+            <li class="external-link"><a href="http://www.huawei.com/minisite/russia/annualreport2017rus/index.html" onclick="ga('send', 'event', 'mobilenav', 'abouthuawei', 'annualreport');">Годовой отчет<em class="hwic_open-in-new3"></em></a></li>
+                </ul>
+              </div> 
+             </div>
+                        
+                      </div>
+           
+                      <div class="col-sm-6">
+                        <h3>Новости и события</h3>
+                        <ul>
+                          <li class="external-link"><a href="http://www.huawei.com/minisite/russia/20anniversary/index.html" onclick="ga('send', 'event', 'mobilenav', 'abouthuawei', '20anniversary');">20 лет вместе с Россией<em class="hwic_open-in-new3"></em></a></li>
+                        <li class="external-link"><a href="https://www.huawei.com/ru/press-events/news" onclick="ga('send', 'event', 'mobilenav', 'abouthuawei', 'news');">Новости</a></li>
+            <li class="external-link"><a href="https://www.huawei.com/ru/press-events" onclick="ga('send', 'event', 'mobilenav', 'abouthuawei', 'presscenter');">Пресс-центр </a></li>
+    
+            
+
+            <li class="external-link"><a href="https://www.huawei.com/ru/newsletter" onclick="ga('send', 'event', 'mobilenav', 'abouthuawei', 'newsletter');">Подписка на рассылку</a></li>
+<li class="external-link"><a href="http://www.huawei.com/ru/contact-us" onclick="ga('send', 'event', 'mobilenav', 'abouthuawei', 'newsletter');">Контакты</a></li>
+                        </ul>
+                      </div>
+                      <!--<div class="col-sm-3">
+                        <h3>Publications</h3>
+                        <ul>
+                          <li><a href="/ru/about-huawei/publications/winwin-magazine">WinWin Magazine</a></li>
+                          <li><a href="/ru/about-huawei/publications/communicate">Communications Magazine</a></li>
+                          <li class="external-link"><a href="http://e.huawei.com/en/publications/global/ict_insights" target="_blank">ICT Insights<em class="hwic_open-in-new3"></em></a></li>
+                        </ul>
+                      </div>-->
+                    </div>
+                  </div>
+                </div>
+                                    
+                                </li>
+                                
+                            
+                    </ul>
+                </div> 
+                <div class="search ">
+                    <a href="javascript:;" class="js-search-btn-open nav-search-btn hidden-xs hidden-sm" data-target="#js-search-input-box">
+                        <span class="hwic_search sear-btn"></span>
+                    </a>
+                    <a href="javascript:;" class="search-btn hidden-xs hidden-sm"><span class="hwic_search"></span></a>
+                    <div class="search-open" id="js-search-input-box">
+                        <div class="overlay-box container-fluid"></div>
+                        <div class="search-box">
+                            <div class="search-input">
+                                <input type="text" name="Search" class="js-search-input-popup" placeholder="Введите запрос" onkeypress="javascript:if(event.keyCode=='13') return search();" autocomplete="off">
+                                <a href="javascript:;" class="hwic_search moblie-search-btn visible-xs visible-sm"></a>
+                            </div>
+                            <a href="javascript:;" class="moblie-search-close js-search-btn-close">
+                                <span class="hwic_cross"></span>
+                            </a>
+                            <a href="javascript:;" class="search-close js-search-btn-close">
+                                <span class="hwic_cross"></span>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="hw1_masthead_rightside visible-xs visible-sm">
+                    <ul class="clearfix">
+                        <li class="hw1_search dropdown">
+                            <a href="javascript:;" class="js-search-btn-open hwic_search" data-target="#js-search-input-box"></a>
+                        </li>
+                        <li class="hw1_show_more visible-sm visible-xs">
+                            <a href="javascript:;" class="js-mobile-nav-open-btn" data-target="#hw1_mob_nav_container">
+                                <span class="hwic_dehaze"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div id="hw1_mob_nav_container" class="">
+        <div class="mob_nav_open  visible-xs visible-sm">
+            
+<ul>
+                <li>
+                    <a href="javascript:;" class="navbar-toggle primary-nav-consumer-mob" data-toggle="collapse" data-target="#primary-nav-consumer-mob" aria-expanded="false" aria-controls="primary-nav-consumer-mob">Для пользователя <em class="hwic_down"></em></a>
+                    <ul class="primary-nav-consumer-mob  navbar-collapse collapse" id="primary-nav-consumer-mob" aria-expanded="true">
+                        <li><a href="https://consumer.huawei.com/ru/?type=phones" onclick="ga('send', 'event', 'mobilenav', 'b2c', 'phones');" target="_blank">Смартфоны</a></li>
+            <li><a href="https://consumer.huawei.com/ru/?type=tablets" onclick="ga('send', 'event', 'mobilenav', 'b2c', 'PCandTablet');" target="_blank">Планшеты</a></li>
+                        <li><a href="https://consumer.huawei.com/ru/?type=wearables" onclick="ga('send', 'event', 'mobilenav', 'b2c', 'Wearables');" target="_blank">Фитнес-трекеры</a></li>
+                        <li><a href="http://smarthome.huawei.ru/b2c/" onclick="ga('send', 'event', 'mobilenav', 'b2c', 'smarthome');" target="_blank">Интернет</a></li>
+          
+                        <li><a href="https://consumer.huawei.com/ru/support/" onclick="ga('send', 'event', 'mobilenav', 'b2c', 'support');" target="_blank">Поддержка</a></li>                        
+                        <li class="nav-mob-link">Перейти на <a href="https://consumer.huawei.com/ru/" class="link-red" onclick="ga('send', 'event', 'mobilenav', 'b2c', 'consumerhome');" target="_blank">consumer.huawei.com/ru</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="navbar-toggle primary-nav-enterprise-mob" data-toggle="collapse" data-target="#primary-nav-enterprise-mob" aria-expanded="false" aria-controls="primary-nav-enterprise-mob">Для бизнеса  <em class="hwic_down"></em></a>
+                    <ul class="primary-nav-enterprise-mob  navbar-collapse collapse" id="primary-nav-enterprise-mob" aria-expanded="true">
+                        <li>
+                            <h3>Для предприятий</h3>
+                        </li>
+                        <li>
+                            <a href="http://e.huawei.com/ru/products-solutions-list?productsSolutions=products" onclick="ga('send', 'event', 'mobilenav', 'b2b', 'ent-allproducts');" target="_blank">Продукты</a>
+                        </li>
+                        <li>
+                            <a href="http://e.huawei.com/ru/products-solutions-list?productsSolutions=solutions" onclick="ga('send', 'event', 'mobilenav', 'b2b', 'ent-allsolutions');" target="_blank">Решения</a>
+                        </li>
+            <li>
+                            <a href="http://e.huawei.com/ru/services" onclick="ga('send', 'event', 'mobilenav', 'b2b', 'ent-allservices');" target="_blank">Сервисы</a>
+                        </li>
+                        <li>
+                            <a href="http://support.huawei.com/enterprise/ru/index.html" onclick="ga('send', 'event', 'mobilenav', 'b2b', 'ent-support');" target="_blank">Поддержка</a>
+                        </li>
+                        <li class="nav-mob-link">Перейти на <a href="http://e.huawei.com/ru/" class="link-red" onclick="ga('send', 'event', 'mobilenav', 'b2b', 'ent-home');" target="_blank">e.huawei.com/ru</a>
+                        </li>
+                        <li>
+                            <h3>Для операторов</h3>
+                        </li>
+                        <li>
+                            <a href="http://carrier.huawei.com/en/products" onclick="ga('send', 'event', 'mobilenav', 'b2b', 'car-allproducts');" target="_blank">Продукты</a>
+                        </li>
+                        <li>
+                            <a href="http://carrier.huawei.com/en/solutions" onclick="ga('send', 'event', 'mobilenav', 'b2b', 'car-allsolutions');" target="_blank">Решения</a>
+                        </li>
+            <li>
+                            <a href="http://carrier.huawei.com/en/services" onclick="ga('send', 'event', 'mobilenav', 'b2b', 'car-allservices');" target="_blank">Сервисы</a>
+                        </li>
+                        <li>
+                            <a href="http://support.huawei.com/carrier/en/hwe/index.html" onclick="ga('send', 'event', 'mobilenav', 'b2b', 'car-support');" target="_blank">Поддержка</a>
+                        </li>
+                        <li class="nav-mob-link">Перейти на <a href="http://carrier.huawei.com/en/" class="link-red" onclick="ga('send', 'event', 'mobilenav', 'b2b', 'car-home');" target="_blank">carrier.huawei.com</a>
+                        </li>
+                        
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="javascript:;" class="navbar-toggle primary-nav-insights-mob" data-toggle="collapse" data-target="#primary-nav-insights-mob" aria-expanded="false" aria-controls="primary-nav-insights-mob">Поддержка <em class="hwic_down"></em></a>
+                    <ul class="primary-nav-insights-mob navbar-collapse collapse" id="primary-nav-insights-mob" aria-expanded="true">
+            
+                        <li><a href="http://m.huawei.com/rumobile/consumer/support/index.htm" onclick="ga('send', 'event', 'mobilenav', 'support', 'con-support');">Для потребителя</a></li>
+              <li><a href="http://support.huawei.com/enterprise/?lang=ru" onclick="ga('send', 'event', 'mobilenav', 'support', 'ent-support');" target="_blank">Для предприятий</a></li>
+              <li><a href="http://support.huawei.com/carrier/?lang=en#click=main1" onclick="ga('send', 'event', 'mobilenav', 'support', 'car-support');" target="_blank">Для операторов</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;" class="navbar-toggle about-huawei-mob" data-toggle="collapse" data-target="#about-huawei-mob" aria-expanded="false" aria-controls="about-huawei-mob">О компании <em class="hwic_down"></em></a>
+                    <ul class="about-huawei-mob navbar-collapse collapse" id="about-huawei-mob" aria-expanded="true">
+                        <li><h3>О компании</h3></li>
+                        <li><a href="/ru/about-huawei/corporate-information" onclick="ga('send', 'event', 'mobilenav', 'abouthuawei', 'corporateinfo');">Корпоративная информация </a></li>
+                        <li><a href="/ru/about-huawei/corporate-governance/corporate-governance" onclick="ga('send', 'event', 'mobilenav', 'abouthuawei', 'governance');">Руководство компании</a></li>
+                        <li><a href="/ru/about-huawei/cyber-security" onclick="ga('send', 'event', 'mobilenav', 'abouthuawei', 'cybersecurity');">Информационная безопасность</a></li>
+            <li><a href="http://www.huawei.com /minisite/russia/huaweigci/index.html" onclick="ga('send', 'event', 'mobilenav', 'abouthuawei', 'rugci');">Глобальный индекс сетевого взаимодействия</a></li>
+            <li><a href="http://www.huawei.com/minisite/russia/annualreport2016/" onclick="ga('send', 'event', 'mobilenav', 'abouthuawei', 'annualreport');">Годовой отчет</a></li>
+            
+            <li><h3>Новости и события</h3></li>
+            <li><a href="http://www.huawei.com/minisite/russia/20anniversary/" onclick="ga('send', 'event', 'mobilenav', 'abouthuawei', '20anniversary');">20 лет вместе с Россией</a></li>
+                        <li><a href="/ru/press-events/news" onclick="ga('send', 'event', 'mobilenav', 'abouthuawei', 'news');">Новости</a></li>
+            <li><a href="/ru/press-events" onclick="ga('send', 'event', 'mobilenav', 'abouthuawei', 'presscenter');">Пресс-центр </a></li>
+            
+                        <li><a href="http://events.huawei.ru/" onclick="ga('send', 'event', 'mobilenav', 'abouthuawei', 'events');" target="_blank">Годовой отчет</a></li>
+            <li><a href="/ru/newsletter" onclick="ga('send', 'event', 'mobilenav', 'abouthuawei', 'newsletter');">Подписка на рассылку</a></li>
+                        
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="mob_login" id="login_mob" style="display: none;">
+                <a id="header_0_loginUrl_mob" data-id="false"><em class="hwic_lock"></em>
+                    
+                </a>
+            </div>
+            <div class="mob_login" id="logout_mob" style="display: none;">
+                <a id="header_0_logoutUrl_mob" data-id="false">
+                    
+                </a>
+            </div>
+        </div>
+        <div class="nav-posti">
+            <div class="corporate-link-mob mob-corporate-open navbar-collapse collapse" id="corporate-link-mob" aria-expanded="true">
+                <ul>
+                    
+                            <li>
+                                <h3>
+                                    <a>
+                                        Корпоративный сайт
+                                        <em class="hwic_to_right" style="display:none;"></em>
+                                    </a>
+                                </h3>
+                                <p>О компании Huawei, пресса, события и многое другое</p>
+                            </li>
+                        
+                            <li>
+                                <h3>
+                                    <a href="https://consumer.huawei.com/ru" target="_blank">
+                                        Для потребителей
+                                        <em class="hwic_to_right" style=""></em>
+                                    </a>
+                                </h3>
+                                <p>Смартфоны, планшеты, носимые устройства и многое другое</p>
+                            </li>
+                        
+                            <li>
+                                <h3>
+                                    <a href="http://e.huawei.com/ru">
+                                        Для предприятий
+                                        <em class="hwic_to_right" style=""></em>
+                                    </a>
+                                </h3>
+                                <p>Продукты, решения и услуги для предприятий</p>
+                            </li>
+                        
+                            <li>
+                                <h3>
+                                    <a href="http://carrier.huawei.com/en/" target="_blank">
+                                        Для операторов 
+                                        <em class="hwic_to_right" style=""></em>
+                                    </a>
+                                </h3>
+                                <p>Продукты, решения и услуги для операторов</p>
+                            </li>
+                        
+                </ul>
+            </div>
+            <div class="corporate-link-mob mob-worldwide-open navbar-collapse collapse" id="worldwide-link-mob" aria-expanded="true"><div class="worldwide-contact">
+                    <div class="worldwide-language"><span class="hwic_browser"></span>Huawei Global - <a link="/en/" href="javascript:void(0)" style="text-decoration:underline;">English</a></div>
+                    <ul class="clearfix">
+                        <li>
+                            <ul>
+                                <li>
+                                    <em class="icon-icon-australia"></em>
+                                    <span>Australia</span>-
+                    <a link="/au/" href="javascript:void(0)">English </a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-republic"></em>
+                                    <span>Belarus</span>-
+                    <a link="/by/" href="javascript:void(0)">Pусский</a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-brazil"></em>
+                                    <span>Brazil</span>-
+                    <a link="/br/" href="javascript:void(0)">Portuguese</a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-canada"></em>
+                                    <span>Canada</span>-
+                    <a link="/ca/" href="javascript:void(0)">English </a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-china"></em>
+                                    <span>China</span>-
+                    <a link="/cn/" href="javascript:void(0)">简体中文</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>
+                                    <em class="icon-icon-deutschland"></em>
+                                    <span>Germany</span>-
+                    <a link="/de/" href="javascript:void(0)">Deutsch</a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-japan"></em>
+                                    <span>Japan</span>-
+                    <a link="/jp/" href="javascript:void(0)">日本語</a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-malaysia"></em>
+                                    <span>Malaysia </span>-
+                    <a link="/my/" href="javascript:void(0)">English</a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-mexico"></em>
+                                    <span>Mexico</span>-
+                    <a link="/mx/" href="javascript:void(0)">Spanish</a>
+                                </li>
+                                 <li>
+                                    <em class="icon-icon-myanmar"></em>
+                                    <span>Myanmar</span>-
+                    <a link="/mm/" href="javascript:void(0)">ျမန္မာ</a>
+                                </li>
+                               
+
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>
+                                    <em class="icon-icon-russia"></em>
+                                    <span>Russia</span>-
+                    <a link="/ru/" href="javascript:void(0)">русский</a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-south-africa"></em>
+                                    <span>South Africa</span>-
+                    <a link="/za/" href="javascript:void(0)">English </a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-spain"></em>
+                                    <span>Spain</span>-
+                    <a link="/es/" href="javascript:void(0)">Spanish</a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-switzerland"></em>
+                                    <span>Switzerland</span>-
+                    <a link="/ch-en/" href="javascript:void(0)">English </a>
+                                </li>
+                               <li>
+                                    <em class="icon-icon-kingdom"></em>
+                                    <span>Thailand</span>-
+                    <a link="/th/" href="javascript:void(0)">ภาษาไทย</a>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <li>
+                            <ul>                   
+                                <li>
+                                    <em class="icon-icon-turkey"></em>
+                                    <span>Turkey</span>-
+                    <a link="/tr/" href="javascript:void(0)">Türkiye</a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-united-kingdom"></em>
+                                    <span>United Kingdom</span>-
+                    <a link="/uk/" href="javascript:void(0)">English </a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-united-states"></em>
+                                    <span>United States</span>-
+                    <a link="/us/" href="javascript:void(0)">English </a>
+                                </li>
+                                <li>
+                                    <em class="icon-icon-vietnam"></em>
+                                    <span>Vietnam</span>-
+                    <a link="/vn/" href="javascript:void(0)">Tiếng Việt</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div></div>
+        </div>
+        <div class="mob-nav-corporate">
+            <span><a href="javascript:;" class="navbar-toggle corporate-link-mob" data-toggle="collapse" data-target="#corporate-link-mob" aria-expanded="false" aria-controls="corporate-link-mob">компании<em class="hwic_top"></em></a></span>
+            
+        </div>
+    </div>
+</header>
+<div class="visible-xs visible-sm hw_space"></div>
+
+
+</form>
+<div class="autocomplete-suggestions js-complete-search-result complete-search-result"></div>

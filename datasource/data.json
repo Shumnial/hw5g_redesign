@@ -1,0 +1,355 @@
+{
+	"title": "Заголовок страницы",
+	"mission": [
+		{
+			"url": "erix-xu",
+			"title": "Эрик Сюй о&nbsp;5G"
+		},
+		{
+			"url": "industry-voice",
+			"title": "Голос индустрии: 5G"
+		},
+		{
+			"url": "dr-tong",
+			"title": "Видение будущего&nbsp;5G"
+		}
+	],
+	"innovations": [
+		{
+			"src": "innovation1.png",
+			"title": "Технологические инновации",
+			"text": "Основные характеристики&nbsp;5G: максимальная скорость&nbsp;&mdash; 10&nbsp;Гбит/с ультранизкой задержкой в&nbsp;1&nbsp;мс, 100 миллиардов подключений. Все они требуют большего диапазона возможностей и&nbsp;революционных нововведений в&nbsp;радиоинтерфейсе и&nbsp;архитектуре сети."
+		},
+		{
+			"src": "innovation2.png",
+			"title": "Сотрудничество с&nbsp;операторами",
+			"text": "За&nbsp;последние десятилетия компания Huawei установила тесные партнерские отношения с&nbsp;ведущими мировыми операторами в&nbsp;области технологических инноваций. Сейчас, на&nbsp;ранней стадии внедрения инновационного стандарта, взаимное доверие в&nbsp;очередной раз объединило ведущих мобильных операторов для исследования потенциала&nbsp;5G."
+		},
+		{
+			"src": "innovation3.png",
+			"title": "Основные этапы Huawei&nbsp;5G",
+			"text": "Компания Huawei запустила исследовательский проект 5G&nbsp;еще в&nbsp;2009&nbsp;году. В&nbsp;последующие годы команда Huawei 5G&nbsp;регулярно вносила свой вклад в&nbsp;развитие индустрии, определяя будущие требования к&nbsp;стандарту, проводя первые испытания технологий радиоинтерфейса и&nbsp;тестируя первый в&nbsp;мире прототип Sub-6&nbsp;GHz 5G."
+		}
+	],
+	"contribution": [
+		{
+			"year": "2015",
+			"src": "contribution1.jpg",
+			"title": "Самый большой вклад в&nbsp;развитие&nbsp;5G",
+			"descr": "LTE World Summit<br>Амстердам, Нидерланды"
+		},
+		{
+			"year": "2016",
+			"src": "contribution2.jpg",
+			"title": "Блестящий вклад в&nbsp;инновации&nbsp;5G",
+			"descr": "5G World Summit<br>Лондон, Великобритания"
+		},
+		{
+			"year": "2017",
+			"src": "contribution3.jpg",
+			"title": "Выдающийся вклад в&nbsp;развитие LTE до&nbsp;5G",
+			"descr": "MWC 2017<br>Барселона, Испания"
+		}
+	],
+	"mainNews": {
+		"img": "main.jpg",
+		"date": "14 июня 2018",
+		"url": "https://www.comnews.ru/content/113504/2018-06-14/megafon-zapustil-bespilotnye-avtobusy-na-setyah-5g",
+		"name": "&laquo;Вымпелком&raquo; и Huawei заключили соглашение о развитии 5G"
+	},
+	"news": [
+		{
+			"date": "11 июня 2018",
+			"url": "http://www.huawei.com/en/press-events/news/2018/6/Huawei-Digital-Transformation-CEBIT-2018",
+			"name": "Huawei Plays the Digital Transformation Symphony at&nbsp;CEBIT 2018",
+			"img": "main.jpg",
+			"eng": true
+		},
+		{
+			"date": "06 июня 2018",
+			"url": "http://www.huawei.com/en/press-events/news/2018/6/Huawei-Asia-Pacific-Innovation-Day",
+			"name": "Fourth Annual Huawei Asia-Pacific Innovation Day: Innovating for a&nbsp;Digital Asia-Pacific",
+			"eng": true
+		},
+		{
+			"date": "06 июня 2018",
+			"url": "http://www.huawei.com/en/press-events/news/2018/6/Huawei-3GPP-R14-based-NB-IoT-Solution",
+			"name": "Huawei Releases World&rsquo;s First 3GPP R14-based Commercial NB-IoT Solution",
+			"eng": true
+		},
+		{
+			"date": "31 мая 2018",
+			"url": "http://www.huawei.com/en/press-events/news/2018/5/Tunisie-Telecom-LTE-Network-Tunisia-4T4R",
+			"name": "Tunisie Telecom и&nbsp;Huawei построят самую быструю сеть LTE в&nbsp;Тунисе с&nbsp;техно&shy;ло&shy;ги&shy;ей 4T4R",
+			"img": "news2.jpg",
+			"eng": true
+		},
+		{
+			"date": "31 мая 2018",
+			"url": "http://www.huawei.com/en/press-events/news/2018/5/Indoor-Digital-System-LampSite-Family-Solution",
+			"name": "Цифровые решения для покрытия внутри помещений",
+			"eng": true
+		},
+		{
+			"date": "24 мая 2018",
+			"url": "http://www.huawei.com/en/press-events/news/2018/5/Huawei-European-Business-Summit",
+			"name": "Европа должна развивать сильные стороны и&nbsp;поощрять цифровые инвестиции",
+			"eng": true
+		},
+		{
+			"date": "23 мая 2018",
+			"url": "http://www.huawei.com/en/press-events/news/2018/5/IAB-Value-5G-Test-39-GHz-Band",
+			"name": "NTT DOCOMO и&nbsp;Huawei доказали важность комплексной интеграции доступа (IAB), протестировав 5G&nbsp;в&nbsp;диапазоне 39&nbsp;GHz",
+			"eng": true
+		},
+		{
+			"date": "21 мая 2018",
+			"url": "http://www.huawei.com/ru/press-events/news/ru/2018/huawei_5g_zone_innopolis",
+			"name": "В&nbsp;Иннополисе открыта опытная зона сети нового поколения технологии&nbsp;5G"
+		},
+		{
+			"date": "04 мая 2018",
+			"url": "http://www.huawei.com/en/press-events/news/2018/5/Huawei-ICT-stakeholders-Spain-5G",
+			"name": "5G&nbsp;сегодня&nbsp;&mdash; Huawei приглашает ИКТ-стейкхолдеров Испании исследовать возможности 5G&nbsp;вместе",
+			"eng": true
+		},
+		{
+			"date": "26 апреля 2018",
+			"url": "http://www.huawei.com/en/press-events/news/2018/4/Industry-First-5G-Edge-Cloud-Smart-Port-Solution",
+			"name": "China Unicom и&nbsp;Huawei совместно запустили первое 5G&nbsp;edge-cloud-решение для умных портов",
+			"eng": true
+		},
+		{
+			"date": "28 февраля 2018",
+			"url": "http://www.huawei.com/ru/press-events/news/ru/2018/huawei_5g_slicing_assosiation",
+			"name": "Крупнейшие игроки IT-отрасли объединяются в&nbsp;Международную ассоциацию 5G-слайсинга"
+		},
+		{
+			"date": "28 февраля 2018",
+			"url": "http://www.huawei.com/ru/press-events/news/ru/2018/huawei_china_mobile_5g_microservices",
+			"name": "China Mobile и&nbsp;Huawei демонстрируют первую в&nbsp;мире основную сеть 5G&nbsp;на&nbsp;базе микросервисов"
+		},
+		{
+			"date": "27 февраля 2018",
+			"url": "http://www.huawei.com/ru/press-events/news/ru/2018/huawei_telefonica_5g_sliding_vr",
+			"name": "Huawei и&nbsp;Telef&oacute;nica прод&shy;емон&shy;ст&shy;риро&shy;вали первый в&nbsp;мире VR-сервис с&nbsp;использованием технологии 5G-слайсинга"
+		},
+		{
+			"date": "26 февраля 2018",
+			"url": "http://www.huawei.com/ru/press-events/news/ru/2018/huawei_complex_5g_solutions",
+			"name": "Huawei представляет полную серию комплексных 5G-решений"
+		},
+		{
+			"date": "24 ноябрь 2016",
+			"url": "http://www.huawei.com/ru/press-events/news/ru/2016/24-11-2016-5g",
+			"name": "Huawei: Отсчет перед запуском технологий 5G&nbsp;начинается сегодня"
+		},
+		{
+			"date": "11 ноябрь 2016",
+			"url": "http://www.huawei.com/ru/press-events/news/ru/2016/16112016",
+			"name": "Huawei и&nbsp;DOCOMO провели первое в&nbsp;истории кру&shy;пно&shy;ма&shy;сштабное эксплуа&shy;та&shy;ци&shy;он&shy;ное испытание техно&shy;ло&shy;гий 5G&nbsp;в&nbsp;ди&shy;апа&shy;зо&shy;не 4,5&nbsp;ГГц"
+		}
+	],
+	"features": [
+		{
+			"col": "left",
+			"items": [
+				{
+					"textBold": "4-кратная",
+					"text": "возможность текущей сети&nbsp;4G"
+				},
+				{
+					"textBold": "10&nbsp;Гбит/с",
+					"text": "пиковая скорость передачи"
+				},
+				{
+					"textBold": "1&nbsp;мс",
+					"text": "сквозной период ожидания"
+				}
+			]
+		},
+		{
+			"col": "right",
+			"items": [
+				{
+					"textBold": "1/50",
+					"text": "лучший период ожидания сети&nbsp;4G"
+				},
+				{
+					"textBold": "1&nbsp;млн/км<sup>2</sup>",
+					"text": "количество подключений"
+				},
+				{
+					"textBold": "в&nbsp;100 раз",
+					"text": "скорость выше скорости&nbsp;4G"
+				}
+			]
+		}
+	],
+	"download": [
+		{
+			"url": "http://www.huawei.com/minisite/5g/img/5g-network-slicing-for-vertical-industries-en.pdf",
+			"name": "5G Network Slicing for Vertical Industries"
+		},
+		{
+			"url": "http://www.huawei.com/minisite/5g/img/5G_Opening_up_New_Business_Opportunities_en.pdf",
+			"name": "5G Opening up New Business Opportunities"
+		},
+		{
+			"url": "http://www.huawei.com/minisite/5g/img/5G_Network_Architecture_A_High-Level_Perspective_en.pdf",
+			"name": "5G Network Architecture A High-Level Perspective"
+		},
+		{
+			"url": "http://www.huawei.com/minisite/5g/img/New_Air_Interface_andRadio_Access_Virtualizatio_en.pdf",
+			"name": "New Air Interface and Radio Access Virtualization"
+		},
+		{
+			"url": "http://www.huawei.com/minisite/5g/img/Forbes_Insights_5G_The_Mobile_Industrial_Revolution.pdf",
+			"name": "Forbes Insights&nbsp;&mdash; 5G, The Mobile Industrial Revolution"
+		},
+		{
+			"url": "http://www.huawei.com/minisite/5g/img/5G_Security_Whitepaper_en.pdf",
+			"name": "5G Security"
+		},
+		{
+			"url": "http://www.huawei.com/5gwhitepaper/",
+			"name": "5G &mdash; A Technology Vision"
+		},
+		{
+			"url": "http://www.huawei.com/minisite/5g/img/GSA_the_Road_to_5G.pdf",
+			"name": "GSA Report&nbsp;&mdash; The Road to&nbsp;5G: Drivers, Applications, Requirements and Technical Development"
+		}
+
+	],
+	"abilities": [
+		{
+			"id": "fbb9b758-ede0-45df-91e5-cb2b40167800",
+			"title": "Виртуальная и&nbsp;дополненная<br>реальность в&nbsp;облаке",
+			"text": [
+				"<span class=\"abilities__text abilities__text--mobile\">Облачный рынок растет стремительно&nbsp;&mdash; на&nbsp;18% в&nbsp;годовом исчислении. Новый стандарт 5G&nbsp;упростит и&nbsp;улучшит доступ к&nbsp;подобным облачным сервисам.</span>",
+				"<span class=\"abilities__text abilities__text--desktop\">В&nbsp;ближайшие 10&nbsp;лет в&nbsp;офисе и&nbsp;дома мы&nbsp;все чаще будем обходиться без&nbsp;ПК и&nbsp;ноутбуков, а&nbsp;вместо этого перейдем на&nbsp;мониторы, подключенные к&nbsp;облаку, и&nbsp;интерфейсы взаимодействия человека и&nbsp;машины, активируемые голосовой командой или касанием.</span>"
+			],
+			"active": "true"
+		},
+		{
+			"id": "03943a0d-f6ca-416d-9c1e-c335124d07b8",
+			"title": "Транспортные коммуникации",
+			"text": [
+				"<span class=\"abilities__text abilities__text--desktop\">Стандарт 5G&nbsp;усовершенствует процесс распознавания дорожных ситуаций и&nbsp;обеспечит высокоточную навигацию транспорта благодаря высокой пропускной способности системы, низкой задержке при передаче данных от&nbsp;транспортных средств и&nbsp;обновленной городской инфраструктуры.",
+				"</span> <span class=\"abilities__text abilities__text--mobile\">По&nbsp;оценкам ABI Research, к&nbsp;2025 году число подключенных к&nbsp;5G-сетям автомобилей достигнет 60,3&nbsp;миллиона.</span>"
+			]
+		},
+		{
+			"id": "2cc43426-19dd-4967-b1a3-c5ca7b9cdcd2",
+			"title": "Умное производство",
+			"text": [
+				"<span class=\"abilities__text abilities__text--mobile\">На&nbsp;конец 2017 года во&nbsp;всем мире насчитывалось 18&nbsp;миллионов соединений в&nbsp;системах мониторинга, а&nbsp;к&nbsp;2025 году этот показатель вырастет до&nbsp;88&nbsp;миллионов.</span> <span class=\"abilities__text abilities__text--desktop\">Количество промышленных роботов, поставляемых по всему миру, также вырастет — с 360 тысяч до 1,05 миллиона.</span>",
+				"<span class=\"abilities__text abilities__text--desktop\">Чтобы производственные предприятия могли в&nbsp;полной мере использовать возможности промышленного интернета вещей, им&nbsp;необходимо внедрить комплексное решение, охватывающее не&nbsp;только производственный цех, но&nbsp;и&nbsp;цепочку поставок, то&nbsp;есть весь жизненный цикл продукта.</span>"
+			]
+		},
+		{
+			"id": "6d45ed06-2972-4dfe-a4fc-5a7bd1f0a067",
+			"title": "Энергетические коммуникации",
+			"text": [
+				"<span class=\"abilities__text abilities__text--desktop\">Стандарт 5G&nbsp;способен заменить привычное оптоволокно в&nbsp;автоматизации распределения энергии.</span> <span class=\"abilities__text abilities__text--mobile\">Новая технология обеспечивает задержку сети менее 10&nbsp;мс и&nbsp;пропускную способность в&nbsp;1&nbsp;Гбит, что позволяет перейти на&nbsp;беспроводную модель управления.</span> <span class=\"abilities__text abilities__text--desktop\">Также 5G снижает барьеры выхода новых поставщиков энергии на развивающийся рынок.</span>",
+				"<span class=\"abilities__text abilities__text--desktop\">Низкая задержка, широкий охват и быстрое развертывание обеспечивают быстрый обмен информацией в умных сетях электроснабжения, что крайне важно для территорий, где возобновляемая энергия — это основной источник питания.</span>"
+			]
+		},
+		{
+			"id": "b240d920-6540-4c82-85d9-618acd0669f2",
+			"title": "Беспроводные технологии<br>в&nbsp;сфере здоровья",
+			"text": [
+				"<span class=\"abilities__text abilities__text--mobile\">В&nbsp;2025 году умное здравоохранение привлечет уже более 230 млрд долларов инвестиций по&nbsp;всему миру.</span>",
+				"<span class=\"abilities__text abilities__text--desktop\">Технологическое преобразование области здравоохранения запущено в&nbsp;Северной Америке, на&nbsp;рынках Германии и&nbsp;Северной Азии. Новые приложения включают в&nbsp;себя облачную аналитику данных, медицинские помощники, созданные на&nbsp;основе искусственного интеллекта, а&nbsp;также 5G-коммуникации между службами скорой помощи.</span>"
+			]
+		},
+		{
+			"id": "7aab9cc3-e7db-4a38-87e6-c3338f3ca8e0",
+			"title": "Беспроводные развлекательные<br>технологии для дома",
+			"text": [
+				"<span class=\"abilities__text abilities__text--desktop\">К&nbsp;концу 2017 года число абонентов домашней широкополосной связи достигло 854&nbsp;миллионов, что составляет лишь&nbsp;44% от&nbsp;общего числа пользователей в&nbsp;мире. По&nbsp;прогнозам, еще 350 миллионов пользователей могут позволить себе услуги беспроводной связи к&nbsp;2020&nbsp;году.</span>",
+				"<span class=\"abilities__text abilities__text--mobile\">5G&nbsp;позволит наслаждаться играми в&nbsp;формате 4K&nbsp;с&nbsp;частотой 90&nbsp;кадров в&nbsp;секунду, с&nbsp;задержкой до&nbsp;1&nbsp;мс.</span>"
+			]
+		},
+		{
+			"id": "5acbed1b-836d-4c54-8309-96632861302b",
+			"title": "Коммуникация дронов",
+			"text": [
+				"<span class=\"abilities__text abilities__text--desktop\">Беспилотные летательные аппараты могут стать удобным масштабируемым решением для строительства, нефтегазовой отрасли, энергетики, коммунального и&nbsp;сельского хозяйства.</span>",
+				"<span class=\"abilities__text abilities__text--mobile\">По&nbsp;оценкам ABI Research 2016&nbsp;года, рынок малых дронов быстро увеличится с&nbsp;5,3 млрд долларов в&nbsp;2016-м до&nbsp;33,9 млрд долларов в&nbsp;2026&nbsp;году.</span> <span class=\"abilities__text abilities__text--desktop\">Учитываются как доходы от&nbsp;программных платформ и&nbsp;аппаратных аксессуаров, так и&nbsp;от&nbsp;услуг.</span>"
+			]
+		},
+		{
+			"id": "eb936f78-8527-4fb9-bcd3-60201a3b1445",
+			"title": "Социальные сети",
+			"text": [
+				"<span class=\"abilities__text abilities__text--mobile\">Прямые трансляции поддерживаются и&nbsp;стандартом LTE, но&nbsp;5G&nbsp;в&nbsp;значительной степени изменит три важнейших параметра.</span>",
+				"<span class=\"abilities__text abilities__text--desktop\">&bull; Сквозная задержка сети снизится с&nbsp;60-80&nbsp;мс до&nbsp;менее 10&nbsp;мс.</span>",
+				"<span class=\"abilities__text abilities__text--desktop\">&bull; Каналы HD-видео обычно требуют 50&nbsp;Мбит/с, но&nbsp;скорость может достигать 100&nbsp;Мбит/с, если речь идет о&nbsp;формате&nbsp;4K.</span>",
+				"<span class=\"abilities__text abilities__text--desktop\">&bull; Пропускная способность каналов связи в&nbsp;10&nbsp;Гбит/с позволит быстро загружать и&nbsp;качать видео и&nbsp;изображения высокого качества.</span>"
+			]
+		},
+		{
+			"id": "a27de1ac-db34-476d-a4c5-44d30612b356",
+			"title": "Персональный помощник",
+			"text": [
+				"<span class=\"abilities__text abilities__text--mobile\">По&nbsp;оценкам ABI Research, рынок носимых устройств вырастет на&nbsp;16,4% с&nbsp;2017 по&nbsp;2022&nbsp;год, с&nbsp;203,3 млн поставок в&nbsp;2017 году&nbsp;&mdash; до&nbsp;434,5 млн поставок в&nbsp;2022&nbsp;году.</span>",
+				"<span class=\"abilities__text abilities__text--desktop\">Фитнес-трекеры останутся ключевым сегментом к&nbsp;2022 году и&nbsp;составят&nbsp;36% поставок, оставив позади умные часы (19%), носимые камеры (11%) и&nbsp;устройства для поддержания здоровья (9%).</span>",
+				"<span class=\"abilities__text abilities__text--desktop\">В&nbsp;условиях повсеместного охвата 5G&nbsp;и&nbsp;более высокой скорости передачи данных персональные носимые устройства могут стать элементом критически важных сценариев, таких как организация общественной безопасности, удаленного здравоохранения и&nbsp;добычи полезных ископаемых.</span>"
+			]
+		},
+		{
+			"id": "ec25e45b-7c2a-459c-bcb5-4a5e78e74774",
+			"title": "Умный город",
+			"text": [
+				"<span class=\"abilities__text abilities__text--mobile\">Умный город имеет конкурентное преимущество&nbsp;&mdash; он&nbsp;может быть проактивным, а&nbsp;не&nbsp;просто реагирует на&nbsp;потребности жителей и&nbsp;предприятий.</span> <span class=\"abilities__text abilities__text--desktop\">Чтобы превратить обычный город в&nbsp;технологичный, властям следует не&nbsp;только инвестировать в&nbsp;датчики данных, которые транслируют пульс города, но&nbsp;и&nbsp;в&nbsp;камеры видеонаблюдения, которые помогут контролировать трафик и&nbsp;безопасность в&nbsp;каждом районе.</span>",
+				"<span class=\"abilities__text abilities__text--desktop\">Согласно оценкам, выручка на&nbsp;непотребительском рынке видеонаблюдения составила 12&nbsp;миллиардов долларов США в&nbsp;2017 году&nbsp;и, как ожидается, вырастет до&nbsp;21&nbsp;миллиарда долларов США к&nbsp;2025&nbsp;году.</span>"
+			]
+		}
+	],
+	"slider": [
+		"cmcc",
+		"network-slice",
+		"england",
+		"industry-voice",
+		"dr-tong",
+		"total-telecom",
+		"future-today",
+		"ken-hu",
+		"erix-xu",
+		"ntt-docomo",
+		"vodafone",
+		"field-trial",
+		"joint-test"
+	],
+	"social": [
+		{
+			"url": "http://www.facebook.com/Huawei",
+			"img": "facebook.png"
+		},
+		{
+			"url": "http://www.twitter.com/Huawei",
+			"img": "twitter.png"
+		},
+		{
+			"url": "http://www.linkedin.com/company/huawei",
+			"img": "linkedin.png"
+		},
+		{
+			"url": "http://www.youtube.com/Huawei",
+			"img": "youtube.png"
+		},
+		{
+			"url": "http://www.google.com/+Huawei",
+			"img": "gplus.png"
+		},
+		{
+			"url": "http://weibo.com/huaweiweibo",
+			"img": "weibo.png"
+		},
+		{
+			"url": "qrcode",
+			"img": "qrcode.png"
+		}
+	]
+}

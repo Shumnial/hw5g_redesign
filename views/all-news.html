@@ -1,0 +1,35 @@
+{% extends layout %} {% block head_section %} {#- Include something in
+<head /> -#} {% endblock head_section %} 
+{% block content %}
+<main>
+	<div class="container">
+		<div class="all-news">
+			<div class="headings">
+				<h1 class="title">Новости</h1>
+			</div>
+				{% set number = 0 %}
+				{% for item in common.data.news  %}
+					{% set number = number + 1 %}
+					{% if number > 3 %}
+						{% set number = 1 %}
+					{% endif %}
+			
+				<a href="{{ item.url }}" class="all-news__item">
+					<div class="all-news__content">
+						<h4 class="all-news__date">{{ item.date }}</h4>
+						<p class="all-news__name">{{ item.name }}</p>
+					</div>
+					<div class="all-news__img">
+						{% if item.img %}
+						<img src="{{ ('news/' + item.img)|img_asset}}" alt="">
+						{% else %}
+						<img src="{{ ('news/default' + number + '.jpg')|img_asset}}" alt="">
+						{% endif %}
+					</div>
+				</a>
+			{% endfor %}
+		</div>
+	</div>
+</main>
+{% endblock %} 
+{% block footer_section %} {#- Include something before /body -#} {% endblock footer_section %}

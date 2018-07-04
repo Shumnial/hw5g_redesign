@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NFKG8ZW');</script>
+<!-- End Google Tag Manager -->
+    <meta charset="utf-8">
+    <title>{{ locals.title }}</title>
+    <meta content="{{ locals.description }}" name="description">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="" name="keywords">
+
+    {%- if locals.og %}
+      {%- if locals.image %}
+      <meta property="og:image" content="{{ locals.image|img_asset }}">
+      {%- endif %}
+      <meta property="og:title" content="{{ locals.title }}">
+      <meta property="og:description" content="{{ locals.description }}">
+    {%- endif %}
+    {% if themeColor  %}
+      <meta name="theme-color" content="{{ themeColor }}">
+      <meta name="msapplication-navbutton-color" content="{{ themeColor }}">
+      <meta name="apple-mobile-web-app-status-bar-style" content="{{ themeColor }}">
+    {% endif %}
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/css/iziModal.min.css"/>
+    <link href="{{ 'style.css'|css_asset }}" rel="stylesheet" type="text/css">
+    <style>.lazy-placeholder>img{width:100%;height:100%;position:absolute;left:0;top:0;}.lazy-placeholder{position:relative;display:block;background-color:#ccc;background-image:url("https://www.huawei.com/Assets/corp/img/lazy.png");background-repeat:no-repeat;background-position:50%;background-size:100px}.lazy-loaded,.lazy-placeholder.over{background-image:none!important;width:auto!important;padding-top:0!important;position: static !important;}</style>
+    {% include "blocks/head_analitycs.html" %}
+    {% block head_section %}{% endblock head_section %}
+  </head>
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFKG8ZW"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    {% import 'macros/macro.html' as Macros %}
+    {% include "blocks/svg-symbols.svg" %}
+    {% include "blocks/header.html" %}
+    {% block content %}{% endblock content %}
+    {% include "blocks/footer.html" %}
+    {%- if not isExport and _env == 'development'%}
+      {% include "blocks/__add_component.html" %}
+      <!-- include liveReload only in Dev server -->
+      <script src="//localhost:35729/livereload.js"></script>
+    {%- endif %}
+    {%- if _showPages -%}
+      {% include "blocks/__pagelist.html" %}
+    {%- endif -%}
+    <script src="{{ 'libs.js'|js_asset }}"></script>
+    <script src="{{ 'common.js'|js_asset }}"></script>
+    <script src="https://www.huawei.com/Assets/corp/v2/js/vendor/jquery-1.11.1.min.js"></script>
+    <script src="https://www.huawei.com/Assets/corp/v2/js/common/common.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/js/iziModal.min.js"></script>
+    {% block footer_section %}{% endblock footer_section %}
+    {% include "blocks/analitycs.html" %}
+  </body>
+</html>

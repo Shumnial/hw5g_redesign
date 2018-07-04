@@ -1,0 +1,80 @@
+.new-era{
+	background-color: #fafafa;
+
+	.headings {
+		max-width: 845px;
+	}
+
+	.container {
+		margin-bottom: -50px;
+	}
+
+	@media (max-width: @screen-md) {
+		.container {
+			margin-bottom: -80px;
+		}
+	}
+}
+
+.about-era {
+	position: relative;
+	z-index: 1;
+	padding: 60px;
+	box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.25);
+	background-color: #fff;
+	border-radius: 15px;
+
+	&__poster {
+		position: relative;
+	}
+
+	&__title {
+		font-size: 24px;
+		color: #1b252f;
+		margin-bottom: 30px;
+		font-weight: 500;
+	}
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__col {
+		flex-basis: 45%;
+
+		&:nth-child(1) {
+			margin-right: 30px;
+		}
+
+		&:nth-child(2) {
+			flex-grow: 1;
+		}
+	}
+
+	@media (max-width: @screen-sm) {
+		padding: 30px;
+		margin: 0 auto;
+		box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.25);
+
+		&__row {
+			display: block;
+		}
+
+		&__col:nth-child(1) {
+			width: 100%;
+			margin: 0 auto;
+			margin-bottom: 30px;
+		}
+
+		&__poster img {
+			width: 100%;
+			display: block;
+			margin: 0 auto;
+		}
+	}
+
+	@media (max-width: @screen-xs) {
+			padding: 20px;
+	}
+}

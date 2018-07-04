@@ -1,0 +1,314 @@
+.slider-info{
+	position: relative;
+	padding: 0 55px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+
+	@media (max-width: @screen-sm) {
+		padding-bottom: 0;
+		margin-bottom: 30px;
+	}
+
+	@media (max-width: @screen-xs) {
+		padding: 0;
+	}
+
+	.slider__slide {
+		display: block;
+		img {
+			border-radius: 15px;
+		}
+
+		&--mr {
+			margin-right: 30px;
+			@media (max-width: @screen-xs) {
+				margin-right: 0;
+
+				img {
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
+	}
+
+	.slick-slide {
+		position: relative;
+	}
+
+	.slick-arrow {
+		font-size: 0;
+		width: 25px;
+		height: 25px;
+		border: 0;
+		border-right: 2px solid #959595;
+		border-top: 2px solid #959595;
+		background-color: transparent;
+		cursor: pointer;
+
+		&:focus {
+			outline: none;
+		}
+
+		&:hover {
+			border-right-color: @red;
+			border-top-color: @red;
+		}
+	}
+
+	.slick-prev {
+		position: absolute;
+		top: 45px;
+		left: 10px;
+		transform: rotate(-135deg);
+
+		@media (max-width: 1200px) {
+			top: 35px;
+		}
+
+		@media (max-width: 1020px) {
+			top: 50px;
+		}
+
+		@media (max-width: @screen-md) {
+			top: 30px;
+		}
+
+		@media (max-width: @screen-sm) {
+			top: -45px;
+			bottom: 0;
+			margin: auto;
+		}
+	}
+
+	.slick-next {
+		position: absolute;
+		top: 45px;
+		right: 40px;
+		transform: rotate(45deg);
+
+		@media (max-width: 1200px) {
+			top: 35px;
+		}
+
+		@media (max-width: 1020px) {
+			top: 50px;
+		}
+
+		@media (max-width: @screen-md) {
+			top: 30px;
+		}
+
+		@media (max-width: @screen-sm) {
+			top: -45px;
+			bottom: 0;
+			margin: auto;
+		}
+
+		@media (max-width: @screen-xs) {
+			right: 10px;
+		}
+	}
+
+	.slick-dots {
+		padding-top: 30px;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		padding-right: 15px;
+		@media (max-width: @screen-xs) {
+			padding-right: 0;
+		}
+
+		li {
+			font-size: 0;
+			width: 15px;
+			height: 15px;
+			border: 2px solid #575757;
+			background-color: transparent;
+			margin-right: 15px;
+			margin-bottom: 15px;
+			border-radius: 50%;
+			cursor: pointer;
+
+			button {
+				display: none;
+			}
+
+			&:focus {
+				outline: none
+			}
+
+			@media (max-width: @screen-sm) {
+				margin-right: 15px;
+			}
+
+			@media (max-width: @screen-xs) {
+				width: 10px;
+				height: 10px;
+			}
+		}
+
+		.slick-active {
+			background-color: #575757;
+		}
+	}
+}
+
+.slider-news{
+	position: relative;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	max-width: 980px;
+	overflow: hidden;
+
+	@media (max-width: @screen-sm) {
+		padding-bottom: 0;
+		margin-bottom: 30px;
+	}
+
+	.slider__slide {
+		display: block;
+		height: 216px;
+		margin-bottom: 6px;
+
+		@media (max-width: 768px) {
+			height: 170px;
+		}
+
+		@media (max-width: 420px) {
+			height: 170px;
+		}
+
+		@media (max-width: 340px) {
+			
+		}
+	}
+
+	.slick-list {
+		position: relative;
+	}
+
+	.slick-slide {
+		position: relative;
+	}
+
+	.slick-dots {
+		padding-top: 10px;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+
+		@media (max-width: @screen-sm) {
+			padding-right: 0;
+		}
+
+		@media (max-width: @screen-xs) {
+			
+		}
+
+		li {
+			font-size: 0;
+			width: 15px;
+			height: 15px;
+			background-color: #959595;
+			border: 0;
+			margin-right: 15px;
+			margin-bottom: 15px;
+			border-radius: 50%;
+			cursor: pointer;
+			@media (max-width: @screen-xs) {
+				padding-right: 0;
+			}
+
+			button {
+				display: none;
+			}
+
+			&:focus {
+				outline: none
+			}
+
+			@media (max-width: @screen-sm) {
+				margin-right: 15px;
+			}
+
+			@media (max-width: @screen-xs) {
+				width: 10px;
+				height: 10px;
+			}
+		}
+
+		.slick-active {
+			background-color: #fff;
+			box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.25);
+		}
+	}
+}
+
+.news__wrapper {
+
+	.slick-list {
+		margin-right: -20px;
+		padding: 0 15px;
+		padding-bottom: 30px;
+
+		@media (max-width: @screen-xs) {
+			padding-right: 0;
+			padding-left: 0;
+		}
+	}
+
+	.slider__slide {
+		margin-right: 20px;
+		
+	}
+
+	.slick-arrow {
+		z-index: 1;
+		font-size: 0;
+		width: 25px;
+		height: 25px;
+		border: 0;
+		border-right: 2px solid #959595;
+		border-top: 2px solid #959595;
+		background-color: transparent;
+		cursor: pointer;
+
+		&:focus {
+			outline: none;
+		}
+
+		&:hover {
+			border-right-color: @red;
+			border-top-color: @red;
+		}
+	}
+
+	.slick-prev {
+		position: absolute;
+		top: 30%;
+		left: 10px;
+		transform: rotate(-135deg);
+		@media (max-width: @screen-sm) {
+			
+		}
+
+		@media (max-width: @screen-xs) {
+			top: auto;
+			bottom: 30px;
+		}
+	}
+
+	.slick-next {
+		position: absolute;
+		top: 30%;
+		right: 10px;
+		transform: rotate(45deg);
+
+		@media (max-width: @screen-xs) {
+			top: auto;
+			bottom: 30px;
+		}
+	}
+}

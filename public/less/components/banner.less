@@ -1,0 +1,29 @@
+.banner{
+	min-height: 310px;
+	padding-top: 80px;
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: space-between;
+
+	&__title {
+		font-family: 'Huawei Script';
+		font-size: 80px;
+		color: #0c489d;
+		max-width: 370px;
+		line-height: inherit;
+	}
+
+	@media (max-width: 600px) {
+		text-align: center;
+		justify-content: center;
+		padding-top: 120px;
+
+		&__img {
+			display: none;
+		}
+	}
+
+	@media (max-width: @screen-xs) {
+		margin-bottom: 120px;
+	}
+}

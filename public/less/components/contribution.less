@@ -1,0 +1,118 @@
+.contribution{
+	padding-top: 220px;
+	padding-bottom: 200px;
+	background-color: #f0f2f5;
+
+	.container {
+		position: relative;
+	}
+
+	.headings {
+		max-width: 670px;
+	}
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 60px;
+	}
+
+	@media (max-width: @screen-md) {
+		
+	}
+
+	@media (max-width: @screen-sm) {
+
+		&__row {
+			flex-direction: column;
+		}
+	}
+}
+
+.contribution-item {
+	flex-basis: 29.24%;
+
+	&__year {
+		font-family: "Huawei Script";
+		color: @red;
+		font-size: 36px;
+	}
+
+	&__img {
+		position: relative;
+		width: 100%;
+		margin-bottom: 30px;
+
+		&::after {
+			content: '';
+			display: block;
+			padding-bottom: 64.52%;
+		}
+
+		img {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			border-radius: 15px;
+		}
+	}
+
+	&__title {
+		position: relative;
+		padding-left: 60px;
+		font-size: 20px;
+		font-weight: 400;
+		margin-bottom: 15px;
+
+		&::before {
+			position: absolute;
+			content: '';
+			left: 0;
+			width: 48px;
+			height: 60px;
+			background-image: url('../images/cup.png');
+			background-repeat: no-repeat;
+		}
+	}
+
+	@media (max-width: @screen-md) {
+
+		&__title {
+			font-size: 15px;
+		}
+
+		&__descr {
+			font-size: 14px;
+		}
+	}
+
+	@media (max-width: @screen-sm) {
+		flex-basis: auto;
+		width: 50%;
+		margin: 0 auto;
+		margin-bottom: 30px;
+		
+
+		&__img {
+			width: 100%;
+		}
+
+		&__year {
+			margin-bottom: 5px;
+		}
+
+		&__info {
+			padding-left: 45px;
+
+			&::before {
+				width: 38px;
+				height: 40px;
+				background-size: 38px 40px;
+			}
+		}
+	}
+
+	@media (max-width: @screen-xs) {
+		width: 100%;
+	}
+}

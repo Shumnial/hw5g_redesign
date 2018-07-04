@@ -1,0 +1,43 @@
+.play {
+	cursor: pointer;
+	&__btn {
+		position: absolute;
+		content: '';
+		display: block;
+		width: 70px;
+		height: 70px;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		border-radius: 50%;
+		border: 3px solid #fff;
+		box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.25);
+		background-color: rgba(0, 0, 0, 0.3);
+		cursor: pointer;
+		transition: background 0.2s;
+
+		&::before {
+			position: absolute;
+			content: '';
+			display: block;
+			width: 0px;
+			height: 0px;
+			top: 0;
+			bottom: 0;
+			left: 14px;
+			right: 0;
+			margin: auto 0;
+			border: 13px solid #fff;
+			border-left-color: transparent;
+			border-top-color: transparent;
+			transform: translateZ(1px) rotate(-45deg);
+			border-radius: 5px;
+		}
+	}
+
+	&:hover .play__btn {
+		background-color: rgba(187, 22, 28, 0.6);
+	}
+}
