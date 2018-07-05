@@ -1,3 +1,41 @@
+.slider-hot {
+	.slick-arrow {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		font-size: 0;
+		width: 25px;
+		height: 25px;
+		border: 0;
+		background-color: transparent;
+		cursor: pointer;
+		border-top: 2px solid #f69490;
+		z-index: 1;
+
+		&:focus {
+			outline: none;
+		}
+
+		&:hover {
+			border-right-color: @gray;
+			border-top-color: @gray;
+		}
+	}
+
+	.slick-prev {
+		left: -50px;
+		transform: rotate(-45deg);
+		border-left: 2px solid #f69490;
+	}
+
+	.slick-next {
+		right: -40px;
+		transform: rotate(45deg);
+		border-right: 2px solid #f69490;
+	}	
+}
+
 .slider-info{
 	position: relative;
 	padding: 0 55px;
@@ -261,7 +299,6 @@
 
 	.slider__slide {
 		margin-right: 20px;
-		
 	}
 
 	.slick-arrow {

@@ -6,64 +6,18 @@ $(() => {
 	const abilityNameMobile = $('.abilities__name--mobile');
 	const popup = $('#popup');
 
-	$('.slider-news').slick({
+	$('.slider-hot').slick({
 		dots: true,
 		arrows: true,
 	  infinite: true,
 	  speed: 300,
-	  slidesToShow: 3,
-	  slidesToScroll: 3,
+	  slidesToShow: 1,
+	  slidesToScroll: 1,
 	  autoplay: false,
 	  autoplaySpeed: 2000,
 	  centerMode: false,
 	  centerPadding: '0px',
-	  appendArrows: $(".news__wrapper"),
-	  responsive: [
-	    {
-	      breakpoint: 1024,
-	      settings: {
-	        slidesToShow: 3,
-	        slidesToScroll: 3,
-	        dots: true
-	      }
-	    },
-	    {
-	      breakpoint: 990,
-	      settings: {
-	        slidesToShow: 2,
-	        slidesToScroll: 2,
-	        dots: true
-	      }
-	    },
-	    {
-	      breakpoint: 768,
-	      settings: {
-	        slidesToShow: 1,
-	        slidesToScroll: 1,
-	        dots: true
-	      }
-	    },
-	    {
-	      breakpoint: 600,
-	      settings: {
-	        slidesToShow: 1,
-	        slidesToScroll: 1,
-	        dots: true
-	      }
-	    },
-	    {
-	      breakpoint: 480,
-	      settings: {
-	        slidesToShow: 1,
-	        slidesToScroll: 1,
-	        dots: true,
-	        arrows: false
-	      }
-	    }
-	    // You can unslick at a given breakpoint now by adding:
-	    // settings: "unslick"
-	    // instead of a settings object
-	  ]
+	  appendDots: $('.hot__dots')
 	});
 
 	$('.slider-info').slick({

@@ -51,38 +51,64 @@
 			"descr": "MWC 2017<br>Барселона, Испания"
 		}
 	],
-	"mainNews": {
-		"img": "main.jpg",
-		"date": "14 июня 2018",
-		"url": "https://www.comnews.ru/content/113504/2018-06-14/megafon-zapustil-bespilotnye-avtobusy-na-setyah-5g",
-		"name": "&laquo;Вымпелком&raquo; и Huawei заключили соглашение о развитии 5G"
-	},
 	"news": [
+		{
+			"img": "main.jpg",
+			"date": "14 июня 2018",
+			"url": "https://www.comnews.ru/content/113504/2018-06-14/megafon-zapustil-bespilotnye-avtobusy-na-setyah-5g",
+			"name": "&laquo;Вымпелком&raquo; и Huawei заключили соглашение о развитии 5G",
+			"main": true
+		},
+		{
+			"img": "hot1.jpg",
+			"date": "14 июня 2018",
+			"url": "#",
+			"name": "Huawei запускает полный комплекс решений для конечных продуктов 5G",
+			"hot": true
+		},
+		{
+			"img": "hot2.jpg",
+			"date": "14 июня 2018",
+			"url": "#",
+			"name": "Huawei запускает полный комплекс решений для конечных продуктов 5G",
+			"hot": true
+		},
+		{
+			"img": "hot1.jpg",
+			"date": "14 июня 2018",
+			"url": "#",
+			"name": "Huawei запускает полный комплекс решений для конечных продуктов 5G",
+			"hot": true
+		},
 		{
 			"date": "11 июня 2018",
 			"url": "http://www.huawei.com/en/press-events/news/2018/6/Huawei-Digital-Transformation-CEBIT-2018",
 			"name": "Huawei Plays the Digital Transformation Symphony at&nbsp;CEBIT 2018",
 			"img": "main.jpg",
-			"eng": true
+			"eng": true,
+			"aside": true
 		},
 		{
 			"date": "06 июня 2018",
 			"url": "http://www.huawei.com/en/press-events/news/2018/6/Huawei-Asia-Pacific-Innovation-Day",
 			"name": "Fourth Annual Huawei Asia-Pacific Innovation Day: Innovating for a&nbsp;Digital Asia-Pacific",
-			"eng": true
+			"eng": true,
+			"aside": true
 		},
 		{
 			"date": "06 июня 2018",
 			"url": "http://www.huawei.com/en/press-events/news/2018/6/Huawei-3GPP-R14-based-NB-IoT-Solution",
 			"name": "Huawei Releases World&rsquo;s First 3GPP R14-based Commercial NB-IoT Solution",
-			"eng": true
+			"eng": true,
+			"aside": true
 		},
 		{
 			"date": "31 мая 2018",
 			"url": "http://www.huawei.com/en/press-events/news/2018/5/Tunisie-Telecom-LTE-Network-Tunisia-4T4R",
 			"name": "Tunisie Telecom и&nbsp;Huawei построят самую быструю сеть LTE в&nbsp;Тунисе с&nbsp;техно&shy;ло&shy;ги&shy;ей 4T4R",
 			"img": "news2.jpg",
-			"eng": true
+			"eng": true,
+			"aside": true
 		},
 		{
 			"date": "31 мая 2018",

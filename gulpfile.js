@@ -131,6 +131,7 @@ gulp.task('default', () => {
   gulp.watch([
     'views/blocks/*.html', 
     'views/*.html', 
+    'views/news/*.html', 
     'datasource/*.json', 
     'app.js', 
     'config.json', 
@@ -166,13 +167,13 @@ gulp.task('compileHtml', cb => {
 
 gulp.task('exportHTML', () => {
   
-  gulp.src(['html/*.html'])
-    .pipe(prettify({
-      indent_char: ' ',
-      indent_size: 2,
-      unformatted: [],
-      no_preserve_newlines: true
-    }))
+  gulp.src(['html/**'])
+    // .pipe(prettify({
+    //   indent_char: ' ',
+    //   indent_size: 2,
+    //   unformatted: [],
+    //   no_preserve_newlines: true
+    // }))
     .pipe(gulp.dest(`${config.buildDir}`));
 });
 

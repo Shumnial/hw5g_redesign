@@ -1,4 +1,10 @@
-{% extends layout %} {% block head_section %}
+{% extends layout %}
+{% block head_section %}
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/izimodal/1.5.1/css/iziModal.min.css"/>
+<link href="{{ 'style.css'|css_asset }}" rel="stylesheet" type="text/css">
+<style>.lazy-placeholder>img{width:100%;height:100%;position:absolute;left:0;top:0;}.lazy-placeholder{position:relative;display:block;background-color:#ccc;background-image:url("https://www.huawei.com/Assets/corp/img/lazy.png");background-repeat:no-repeat;background-position:50%;background-size:100px}.lazy-loaded,.lazy-placeholder.over{background-image:none!important;width:auto!important;padding-top:0!important;position: static !important;}</style>
 {% endblock head_section %}{% block content %}
 <main class="cloud-bg">
   <div class="subnav">
@@ -28,21 +34,30 @@
   </div>
   <div class="container">
     <div class="hot">
-      <div class="hot__slider">
-        <div class="hot__slide">
-          <div class="hot__row">
-            <div class="hot__col hot__col--left">
-              <h4 class="hot__title">Новости</h4>
-              <p class="hot__name">Huawei запускает полный комплекс решений для конечных продуктов 5G</p>
-              <p class="hot__date">14 июня 2018</p>
-              <a href="#" class="hot__link">Читать далее</a>
-            </div>
-            <div class="hot__col hot__col--right">
-              <img src="{{ 'hot1.jpg'|img_asset }}" alt="" class="hot__img">
+      <div class="hot__slider slider-hot">
+        {% for item in common.data.news %}
+        {% if item.hot %}
+          <div class="hot__slide">
+            <div class="hot__row">
+              <div class="hot__col hot__col--left">
+                <a href="{{ item.url }}" class="hot__content">
+                  <h4 class="hot__title">Новости</h4>
+                  <p class="hot__name">{{ item.name }}</p>
+                  <p class="hot__date">{{ item.date }}</p>
+                  <span class="hot__link read-more">Читать далее<span class="read-more__arrow"></span></span>
+                </a>
+              </div>
+              <div class="hot__col hot__col--right">
+                <div class="hot__pic">
+                  <img src="{{ ('news/' + item.img)|img_asset}}" class="hot__img" alt="">
+                </div>
+              </div>
             </div>
           </div>
-        </div>
+        {% endif %}
+        {% endfor %}
       </div>
+      <div class="hot__dots"></div>
     </div>
   </div>
   <div class="container" id="news">
@@ -52,26 +67,30 @@
         <a href="/news/" class="news-header__all-news">Все новости</a>
       </div>
       <div class="news__row">
-        <div class="news__col news__col--left">
-          <div class="news__main-item main-news">
-            <img src="{{ ('news/' + common.data.mainNews.img)|img_asset }}" alt="" class="main-news__img">
-            <div class="main-news__info">
-              <h4 class="news__date">НОВОСТИ | {{ common.data.mainNews.date }}</h4>
-              <p class="news__name">{{ common.data.mainNews.name }}</p>
-              <a href="{{ common.data.mainNews.url }}" class="news__link">Читать далее</a>
-            </div>
+          <div class="news__col news__col--left">
+            {% for item in common.data.news %}
+            {% if item.main %}
+            <a href="{{ item.url }}" class="news__main-item main-news">
+              <img src="{{ ('news/' + item.img)|img_asset }}" alt="" class="main-news__img">
+              <div class="main-news__info">
+                <h4 class="news__date">НОВОСТИ | {{ item.date }}</h4>
+                <p class="news__name">{{ item.name }}</p>
+                <span class="news__link read-more">Читать далее<span class="read-more__arrow"></span></span>
+              </div>
+            </a>
+            {% endif %}
+            {% endfor %}
           </div>
-        </div>
-        <div class="news__col news__col--right">
-          {% for item in common.data.news %}
-          {% if loop.index <= 4 %}
-          <a href="{{ item.url }}" class="news__item news-item">
-            <h4 class="news__date">НОВОСТИ | {{ item.date }}</h4>
-            <p class="news__name">{{ item.name }}</p>
-          </a>  
-          {% endif %}
-          {% endfor %}
-        </div>
+          <div class="news__col news__col--right">
+            {% for item in common.data.news %}
+            {% if item.aside %}
+            <a href="{{ item.url }}" class="news__item news-item">
+              <h4 class="news__date">НОВОСТИ | {{ item.date }}</h4>
+              <p class="news__name">{{ item.name }}</p>
+            </a>  
+            {% endif %}
+            {% endfor %}
+          </div>
       </div>
     </section>
   </div>
@@ -262,8 +281,9 @@
           </div>
           <div class="contribution-item__info">
             <h3 class="contribution-item__title">{{ item.title }}</h3>
-            <p class="contribution-item__descr">{{ item.descr }}</p>
+            
           </div>
+          <p class="contribution-item__descr">{{ item.descr }}</p>
         </div>
         {% endfor %}
       </div>
@@ -327,4 +347,8 @@
     </div>
   </div>
 </main>
-{% endblock %} {% block footer_section %} {#- Include something before /body -#} {% endblock footer_section %}
+{% endblock %} 
+{% block footer_section %}
+<script src="{{ 'libs.js'|js_asset }}"></script>
+<script src="{{ 'common.js'|js_asset }}"></script>
+{% endblock footer_section %}

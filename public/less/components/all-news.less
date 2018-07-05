@@ -22,8 +22,9 @@
 		border-radius: 5px;
 
 		&::after {
+			content: '';
 			display: block;
-			padding-bottom: 40%;
+			padding-bottom: 80%;
 		}
 
 		img {
@@ -34,6 +35,24 @@
 			height: 100%;
 			border-top-right-radius: 5px;
 			border-bottom-right-radius: 5px;
+		}
+	}
+
+	@media (max-width: @screen-sm) {
+		&__item {
+			flex-direction: column;
+			background-color: transparent;
+		}
+
+		&__content {
+			order: 2;
+			background-color: #dde6ed;
+			width: 100%;
+		}
+
+		&__img {
+			margin: 0 auto;
+			top: 20px;
 		}
 	}
 }

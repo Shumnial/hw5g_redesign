@@ -37,8 +37,8 @@
 			}
 		},
 		{
-			"name": "huawei_plays",
-			"route": "/news",
+			"name": "news/huawei_plays",
+			"route": "/news/huawei_plays",
 			"pageVars": {
 				"title": "",
 				"description": "",
