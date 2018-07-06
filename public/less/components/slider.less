@@ -10,7 +10,7 @@
 		border: 0;
 		background-color: transparent;
 		cursor: pointer;
-		border-top: 2px solid #f69490;
+		border-top: 2px solid #959595;
 		z-index: 1;
 
 		&:focus {
@@ -21,11 +21,11 @@
 	.slick-prev {
 		left: -50px;
 		transform: rotate(-45deg);
-		border-left: 2px solid #f69490;
+		border-left: 2px solid #959595;
 
 		&:hover {
-			border-left-color: darken(#f69490, 10%);
-			border-top-color: darken(#f69490, 10%);
+			border-left-color: @red;
+			border-top-color: @red;
 		}
 
 		@media (max-width: 1300px) {
@@ -36,11 +36,11 @@
 	.slick-next {
 		right: -40px;
 		transform: rotate(45deg);
-		border-right: 2px solid #f69490;
+		border-right: 2px solid #959595;
 
 		&:hover {
-			border-right-color: darken(#f69490, 10%);
-			border-top-color: darken(#f69490, 10%);
+			border-right-color: @red;
+			border-top-color: @red;
 		}
 
 		@media (max-width: 1300px) {

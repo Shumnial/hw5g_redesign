@@ -41,14 +41,14 @@
         {% if item.hot %}
           <div class="hot__slide">
             <div class="hot__row">
-              <div class="hot__col hot__col--left">
-                <a href="{{ item.url }}" class="hot__content">
+              <a href="{{ item.url }}" class="hot__col hot__col--left">
+                <div class="hot__content">
                   <h4 class="hot__title">Новости</h4>
                   <p class="hot__name">{{ item.name }}</p>
                   <p class="hot__date">{{ item.date }}</p>
                   <span class="hot__link read-more">Читать далее<span class="read-more__arrow"></span></span>
-                </a>
-              </div>
+                </div>
+              </a>
               <div class="hot__col hot__col--right">
                 <div class="hot__pic">
                   <img src="{{ ('news/' + item.img)|img_asset}}" class="hot__img" alt="">
