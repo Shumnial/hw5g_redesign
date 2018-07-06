@@ -16,23 +16,36 @@
 		&:focus {
 			outline: none;
 		}
-
-		&:hover {
-			border-right-color: @gray;
-			border-top-color: @gray;
-		}
 	}
 
 	.slick-prev {
 		left: -50px;
 		transform: rotate(-45deg);
 		border-left: 2px solid #f69490;
+
+		&:hover {
+			border-left-color: darken(#f69490, 10%);
+			border-top-color: darken(#f69490, 10%);
+		}
+
+		@media (max-width: 1300px) {
+			left: 5px;
+		}
 	}
 
 	.slick-next {
 		right: -40px;
 		transform: rotate(45deg);
 		border-right: 2px solid #f69490;
+
+		&:hover {
+			border-right-color: darken(#f69490, 10%);
+			border-top-color: darken(#f69490, 10%);
+		}
+
+		@media (max-width: 1300px) {
+			right: 5px;
+		}
 	}	
 }
 

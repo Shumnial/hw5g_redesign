@@ -122,18 +122,30 @@ $(() => {
 		}
 	}
 
-	
 	$('.nav__link').on('click', function (evt) {
 		evt.preventDefault();
 		const id  = $(this).attr('href');
 		const top = $(id).offset().top;
-		const headerHeight = $('header').height();
-		$('body, html').animate({scrollTop: top - headerHeight}, 1500);
+		const headerHeight = $('#form1').height();
+		const subnavHeight = $('.subnav').height();
+		const indent = headerHeight + subnavHeight;
+		$('body, html').animate({scrollTop: top - indent}, 1500);
 	});
 
 	function onPlaying () {
 		$('.popup__loader').hide();
 	}
+
+	const headerHeight = $('header').height();
+	function onScroll () {
+		const target = $('.subnav');
+		if ($(window).scrollTop() >= headerHeight) {
+			target.css('position', 'fixed');
+			target.css('top', '0');
+		} else {
+			target.css('position', 'static');
+		}
+	};
 
 	newsBtn.on('click', onNewsBtnClick);
 	$('.play').on('click', onPosterClick);
@@ -141,4 +153,5 @@ $(() => {
 	$('.popup__close').on('click', onCrossClick);
 	abilityNameDesktop.on('click', onAbilityDesktopClick);
 	abilityNameMobile.on('click', onAbilityMobileClick);
+	$(document).on('scroll', onScroll);
 })

@@ -231,6 +231,10 @@
 		margin-bottom: 40px;
 	}
 
+	&__item:hover &__name {
+		text-decoration: underline;
+	}
+
 	&__date {
 		font-size: 14px;
 		text-transform: uppercase;
@@ -239,7 +243,9 @@
 	}
 
 	&__name {
+		position: relative;
 		font-size: 22px;
+		transform: color 0.2s;
 	}
 
 	&__link {
@@ -283,7 +289,39 @@
 	}
 
 	&__all-news {
+		position: relative;
 		font-size: 22px;
+		padding-right: 30px;
+		transition: transform 0.2s;
+
+		&--arrow {
+			display: block;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			margin: auto;
+			width: 8px;
+			height: 8px;
+			transition: transform 0.2s;
+
+			&::before {
+				content: '';
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				right: 0;
+				margin: auto;
+				width: 8px;
+				height: 8px;
+				border-top: 2px solid black;
+				border-right: 2px solid black;
+				transform: rotate(45deg);
+			}
+		}
+		&:hover &--arrow {
+			transform: translateX(5px);
+		}
 	}
 }
 

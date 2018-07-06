@@ -13,18 +13,18 @@
 
 	&__content {
 		padding: 30px 40px;
-		width: 57%;
+		width: 62.4%;
 	}
 
 	&__img {
-		width: 43%;
+		width: 37.6%;
 		position: relative;
 		border-radius: 5px;
 
 		&::after {
 			content: '';
 			display: block;
-			padding-bottom: 80%;
+			padding-bottom: 50%;
 		}
 
 		img {
@@ -48,11 +48,21 @@
 			order: 2;
 			background-color: #dde6ed;
 			width: 100%;
+			border-radius: 5px;
 		}
 
 		&__img {
+			width: 45%;
 			margin: 0 auto;
 			top: 20px;
+
+			&::after {
+				padding-bottom: 92.3%;
+			}
+
+			img {
+				border-radius: 5px;
+			}
 		}
 	}
 }

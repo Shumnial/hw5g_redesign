@@ -67,24 +67,24 @@
 			"hot": true
 		},
 		{
-			"img": "hot2.jpg",
+			"img": "default2.jpg",
 			"date": "14 июня 2018",
 			"url": "#",
-			"name": "Huawei запускает полный комплекс решений для конечных продуктов 5G",
+			"name": "Huawei 5G",
 			"hot": true
 		},
 		{
-			"img": "hot1.jpg",
+			"img": "default1.jpg",
 			"date": "14 июня 2018",
 			"url": "#",
-			"name": "Huawei запускает полный комплекс решений для конечных продуктов 5G",
+			"name": "Huawei 5G",
 			"hot": true
 		},
 		{
 			"date": "11 июня 2018",
 			"url": "http://www.huawei.com/en/press-events/news/2018/6/Huawei-Digital-Transformation-CEBIT-2018",
 			"name": "Huawei Plays the Digital Transformation Symphony at&nbsp;CEBIT 2018",
-			"img": "main.jpg",
+			"img": "",
 			"eng": true,
 			"aside": true
 		},
@@ -106,7 +106,7 @@
 			"date": "31 мая 2018",
 			"url": "http://www.huawei.com/en/press-events/news/2018/5/Tunisie-Telecom-LTE-Network-Tunisia-4T4R",
 			"name": "Tunisie Telecom и&nbsp;Huawei построят самую быструю сеть LTE в&nbsp;Тунисе с&nbsp;техно&shy;ло&shy;ги&shy;ей 4T4R",
-			"img": "news2.jpg",
+			"img": "",
 			"eng": true,
 			"aside": true
 		},

@@ -8,18 +8,20 @@
 {% endblock head_section %}{% block content %}
 <main class="cloud-bg">
   <div class="subnav">
-    <div class="subnav__content">
-      <div class="burger">
-        <button></button>
+    <div class="container">
+      <div class="subnav__content">
+        <div class="burger">
+          <button></button>
+        </div>
+        <nav class="nav">
+          <a href="#news" class="nav__link">Новости</a>
+          <a href="#new-era" class="nav__link">Эра 5G</a>
+          <a href="#mission" class="nav__link">Миссия</a>
+          <a href="#innovations" class="nav__link">Практика и инновации</a>
+          <a href="#contribution" class="nav__link">Вклад Huawei</a>
+          <a href="#info" class="nav__link">Информация</a>
+        </nav>
       </div>
-      <nav class="nav">
-        <a href="#news" class="nav__link">Новости</a>
-        <a href="#new-era" class="nav__link">Эра 5G</a>
-        <a href="#mission" class="nav__link">Миссия</a>
-        <a href="#innovations" class="nav__link">Практика и инновации</a>
-        <a href="#contribution" class="nav__link">Вклад Huawei</a>
-        <a href="#info" class="nav__link">Информация</a>
-      </nav>
     </div>
   </div>
   <div class="container">
@@ -64,7 +66,7 @@
     <section class="news">
       <div class="news__header news-header">
         <p class="news-header__title">Новости</p>
-        <a href="/news/" class="news-header__all-news">Все новости</a>
+        <a href="/news/" class="news-header__all-news">Все новости<span class="news-header__all-news--arrow"></span></a>
       </div>
       <div class="news__row">
           <div class="news__col news__col--left">
@@ -139,7 +141,7 @@
     <div class="container">
       <div class="headings">
         <h2 class="title" id="new-era">Новая эра 5G</h2>
-        <p class="text">Услуги передачи данных появились в&nbsp;эпоху&nbsp;2G, развивались в&nbsp;эпоху&nbsp;3G, а&nbsp;в&nbsp;эпоху 4G&nbsp;их&nbsp;число многократно увеличилось. 5G, стандарт с&nbsp;гораздо большим потенциалом, уже готов возвестить о&nbsp;наступлении новой эры мобильной связи.
+        <p class="headings__text text">Услуги передачи данных появились в&nbsp;эпоху&nbsp;2G, развивались в&nbsp;эпоху&nbsp;3G, а&nbsp;в&nbsp;эпоху 4G&nbsp;их&nbsp;число многократно увеличилось. 5G, стандарт с&nbsp;гораздо большим потенциалом, уже готов возвестить о&nbsp;наступлении новой эры мобильной связи.
         </p>
       </div>
       <div class="new-era__about about-era">
@@ -303,12 +305,12 @@
     			<p class="about-techs__post">CMO, Wireless Network Product Line, Huawei</p>
       	</div>
       </div>
-      <div class="headings">
-        <h2 class="title" id="info">Информация</h2>
-      </div>
     </div>
     <div class="info__wrapper">
       <div class="container">
+        <div class="headings">
+          <h2 class="title" id="info">Информация</h2>
+        </div>
         <section class="info__videos">
           <div class="headings">
             <h3 class="info__title">Видеоматериалы</h3>
