@@ -100,7 +100,7 @@ gulp.task('js', () => {
 });
 
 gulp.task('imgmin', () => {
-    gulp.src('public/images/*')
+    gulp.src('public/images/**')
       .pipe(imagemin([
           imagemin.gifsicle({interlaced: true}),
           imagemin.jpegtran({progressive: true}),

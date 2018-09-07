@@ -80,7 +80,8 @@ const filters = {
 	},
 
 	asset: path => getAssetPath(path),
-	img_asset: path => getAssetPath(path, 'images/'),
+	img_asset: path => getAssetPath(path, '/images/'),
+	news_asset: path => getAssetPath(path, 'images/news/'),
 	video_asset: path => getAssetPath(path, 'videos/'),
 	materials_asset: path => getAssetPath(path, 'materials/'),
 	uploads: path => getAssetPath(path, 'uploads/'),

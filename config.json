@@ -4,7 +4,7 @@
 	"buildDir": "build",
 	"port": 8080,
 	"dpe": false,
-	"commonData": ["data"],
+	"commonData": ["data", "news"],
 	"defaultLayout": "layout.html", 
 	"emptyLayout": "empty_layout.html", 
 	"contentOnly": false,
@@ -20,7 +20,7 @@
 		{
 			"name": "index",
 			"route": "/",
-			"pageData": ["index"],
+			"pageData": ["news"],
 			"pageVars": {
 				"title": "Huawei 5G",
 				"description": "5G. Путь к миру без границ",
@@ -28,7 +28,7 @@
 			}
 		},
 		{
-			"name": "all-news",
+			"name": "news/index",
 			"route": "/news",
 			"pageVars": {
 				"title": "Новости",
@@ -39,6 +39,16 @@
 		{
 			"name": "news/huawei_plays",
 			"route": "/news/huawei_plays",
+			"pageData": ["news"],
+			"pageVars": {
+				"title": "",
+				"description": "",
+				"og": true
+			}
+		},
+		{
+			"name": "news/huawei_Erdal_Arikan_polar_code_award_2018",
+			"route": "/news/huawei_Erdal_Arikan_polar_code_award_2018",
 			"pageVars": {
 				"title": "",
 				"description": "",

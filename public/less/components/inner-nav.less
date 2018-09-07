@@ -1,0 +1,41 @@
+.inner-nav {
+  display: flex;
+  padding-top: 20px;
+
+  &__link {
+    font-size: 16px;
+    transition: color 0.2s;
+
+    &:hover {
+      color: @red;
+      text-decoration: underline;
+    }
+
+    &--active {
+      color: @red;
+      text-decoration: underline;
+      cursor: default;
+    }
+  }
+  
+  &__arrow {
+    width: 8px;
+    line-height: 100%;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      width: 8px;
+      height: 8px;
+      border-top: 1px solid black;
+      border-right: 1px solid black;
+      transform: rotate(45deg);
+    }
+  }
+}
